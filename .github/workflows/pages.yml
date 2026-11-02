@@ -1,0 +1,64 @@
+name: Owner-authorized Pages release
+
+# Local preparation only. This workflow has NOT been uploaded or run.
+# No push, pull-request, repository-dispatch or scheduled trigger.
+on:
+  workflow_dispatch:
+    inputs:
+      publication_authorized:
+        description: I explicitly authorize public publication of this reviewed site
+        required: true
+        type: boolean
+        default: false
+      expected_site_sha256:
+        description: Exact owner-approved site inventory SHA-256 from the reviewed manifest
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: owner-pages-release
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner && inputs.publication_authorized
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Check out the exact dispatched revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Verify exact approved files before artifact upload
+        env:
+          EXPECTED_SITE_DIGEST: ${{ inputs.expected_site_sha256 }}
+        run: python3 tools/check_release.py --expected-site-digest "$EXPECTED_SITE_DIGEST"
+      - name: Read existing Pages configuration without enabling it
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        with:
+          enablement: false
+      - name: Upload reviewed static site only
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+          include-hidden-files: true
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the verified artifact
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

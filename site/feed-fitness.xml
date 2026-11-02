@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Three Projects. One Builder. / Fitness</title>
+    <link>https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html</link>
+    <description>Reviewed, published milestones from Three Projects. One Builder.</description>
+    <language>en-us</language>
+    <ns0:link href="https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-fitness.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
