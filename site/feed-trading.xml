@@ -6,5 +6,12 @@
     <description>Reviewed, published milestones from Three Projects. One Builder.</description>
     <language>en-us</language>
     <ns0:link href="https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-trading.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magic’s Decision Desk: From simulated sign-in to real-device validation</title>
+      <link>https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#trading-m7-real-device-auth-hardening</link>
+      <guid isPermaLink="false">urn:kavanagh:milestone:trading:m7-real-device-auth-hardening</guid>
+      <description>M7’s recorded 12-step real-device plan passed with iPhone Face ID and Windows Hello, and 14 simulated unauthorized requests were refused. M7f adds development hardening: 448 tests run, suite OK with one skipped, plus 31/31 simulated browser checks. Production authentication is NOT DEPLOYED. Trading is DISABLED. M7f’s changed device-approval and emergency-lock behavior still awaits a focused real-device check. Evidence checkpoint: 3 November 2026.</description>
+      <category>Trading</category>
+    </item>
   </channel>
 </rss>

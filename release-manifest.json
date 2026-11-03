@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "W3 preparation / option B",
+  "edition": "M7 + M7f announcement candidate / Option B",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "proposed; publication not authorized",
-  "site_inventory_sha256": "6baa84a9a558f0c2eee14282857ebfcfd860175e3121e557641a4dfa3a0236f7",
+  "destination_status": "Existing public destination; this candidate is NOT approved or published",
+  "site_inventory_sha256": "4e93d488dd9687ff3fa565fca22648e35fed93343709b7eab68770d6799fef2d",
   "files": [
     {
       "file": ".nojekyll",
@@ -52,13 +52,13 @@
     },
     {
       "file": "assets/follow.css",
-      "bytes": 3934,
-      "sha256": "3fc27e234b8bb3d0738fef6e51117253de6f5ce3c0b3949d63b9faf867bf9258"
+      "bytes": 4893,
+      "sha256": "0dc984b4e583f0f2c81c664b2e2c6b2a8db6de0be7073175ee0660a834bf758a"
     },
     {
       "file": "assets/follow.js",
-      "bytes": 836,
-      "sha256": "e8478a4c15b9c7c3118eddcaebf5720d38dcd266efaad409c57ec008b3f3cd16"
+      "bytes": 1293,
+      "sha256": "3575287a7e6e08088a06543cb57fb2c5ca85adece462a8ca042f2c2a50305271"
     },
     {
       "file": "assets/images/big-dashboard-thumb.webp",
@@ -262,8 +262,8 @@
     },
     {
       "file": "big-poppa.html",
-      "bytes": 12475,
-      "sha256": "56dca9f37543c371db89efe8c3d65d89729b33584703700b447f3990716fb2ff"
+      "bytes": 12594,
+      "sha256": "69181c0f8594ff7fa5515377caf2f008f89e7dc66ddb75343cf744e09ac9aa09"
     },
     {
       "file": "feed-fitness.xml",
@@ -277,28 +277,28 @@
     },
     {
       "file": "feed-trading.xml",
-      "bytes": 562,
-      "sha256": "aa43bc4a41c0623ad87a543891f065bbc2dc0cb871934d468d6dfe29147d32a0"
+      "bytes": 1458,
+      "sha256": "2e596b420e7eaaa01831113cd3a51a7057713a4328bf3f54d015c4aa05e30830"
     },
     {
       "file": "feed.xml",
-      "bytes": 544,
-      "sha256": "da4fc27de2cae06f5cab2d9efb29dfe4d9994ff38197613b8e6f14bd7bcc1e61"
+      "bytes": 1440,
+      "sha256": "040675e5f3b01a5ff8ed880223d5db9e62d75d4ebb6dcc1e2d0fb11be2478194"
     },
     {
       "file": "formula-none-fitness.html",
-      "bytes": 20854,
-      "sha256": "322c38affa8375f2b3f3c522aa68e7dc09877045ecf762fae393b4b6f1561b34"
+      "bytes": 20973,
+      "sha256": "a9f349b5b3062467504d6ba13b8f0b48836fdd263a567f3c4fae601f6721ba69"
     },
     {
       "file": "index.html",
-      "bytes": 16082,
-      "sha256": "1988c800415f831894d55bd3e54e45e7cbd4765de0d1722b29a1397ad8fa7b1d"
+      "bytes": 16575,
+      "sha256": "87e2ea2b85f257f043044bb6e0f64ea25aa97d20ecf4ce061a86742aa2ac9270"
     },
     {
       "file": "magics-decision-desk.html",
-      "bytes": 14460,
-      "sha256": "316f5ebfdb8cabf4910318b11461d01b4e6d92c793ab2571565b2fa3843fcdff"
+      "bytes": 15425,
+      "sha256": "4531d5a4630f9ead00d9002c12f3c549a0528d2b50bbd3b141124f3169181fcc"
     },
     {
       "file": "robots.txt",
@@ -307,8 +307,8 @@
     },
     {
       "file": "updates.html",
-      "bytes": 8234,
-      "sha256": "34e4ec33f4b7d1781582f37ea5ad96b80a2c93d1885e3e8a68ad9b856a4c736f"
+      "bytes": 13501,
+      "sha256": "1a9a7be4fa3c0582867a77cfa03b914449a00149f8558d5c8e7937a8125deb5f"
     }
   ]
 }
