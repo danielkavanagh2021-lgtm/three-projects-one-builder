@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "Magic Suite iPhone final review / explicit personal-use clarification",
+  "edition": "MrMagic Suite personal portfolio wording / email unavailable",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "PRIVATE CANDIDATE: owner publication approval required",
-  "site_inventory_sha256": "bd15ac83d4c62c3e4688e358f4b233b0c2a961449e5df51d20320d29eff8483e",
+  "destination_status": "Owner-authorized content-only update, subject to passing verification",
+  "site_inventory_sha256": "a04d0ee78add204b8093eb014cc1e6d6335d3d136175527ae321a569bcc173ef",
   "files": [
     {
       "file": ".nojekyll",
@@ -267,13 +267,13 @@
     },
     {
       "file": "behind-the-build.html",
-      "bytes": 10619,
-      "sha256": "52cce8dfeb0a7904a6058046ebdbad9cbabd3ab039ad221724042e4ea27d9f5f"
+      "bytes": 11053,
+      "sha256": "aecf24c9fb713cf1f2a1065363cf00856af74871c534d8734c977e33a67de7f3"
     },
     {
       "file": "big-poppa.html",
-      "bytes": 12839,
-      "sha256": "3a891041fcc52c4d914150a38f88b89727498a64bae59435f9fca330d93c2deb"
+      "bytes": 12967,
+      "sha256": "d095ffb959ea792a1dfeef4b4f0a7817705cb1c83b955bc675ef59c81f519957"
     },
     {
       "file": "feed-fitness.xml",
@@ -297,18 +297,18 @@
     },
     {
       "file": "formula-none-fitness.html",
-      "bytes": 21473,
-      "sha256": "89d9de94c2b3524443a22f037bd8aebed0410db05bb5e73251f266c78804b210"
+      "bytes": 21601,
+      "sha256": "757786a4d218838757a8f38655e014c66f5bf145a830e568dda05d144dc71c45"
     },
     {
       "file": "index.html",
-      "bytes": 23219,
-      "sha256": "126b510673bce3e2d5d5c78157f7bd9682f4b155de0717f44b0ba3fd2e5fb82d"
+      "bytes": 23997,
+      "sha256": "ab29751867c8273adb9e6965c484d3b6ebd0272322c2a63f5e26454f7ae9425b"
     },
     {
       "file": "magics-decision-desk.html",
-      "bytes": 15575,
-      "sha256": "3a421533e4b4007d259b8bf8f015441d3be40ab8e93530b9b8fad1a081defa00"
+      "bytes": 15703,
+      "sha256": "1c0e63fe6581f0389ce5d445b8e14f23364c3953cebf015a41667cb935bf323d"
     },
     {
       "file": "robots.txt",
@@ -317,8 +317,8 @@
     },
     {
       "file": "updates.html",
-      "bytes": 16768,
-      "sha256": "f66f9ea43f54c1b5e09a35000a7e1346ec0d17fc03361be6dd92027185c5f7e5"
+      "bytes": 17017,
+      "sha256": "1fcfab31e1fb725d7d251d601dfedb255ece561cbf3a9e188eca0c2df342d332"
     }
   ]
 }
