@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "MrMagic Suite personal portfolio wording / email unavailable",
+  "edition": "MrMagic Suite verified Kit signup link",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "Owner-authorized content-only update, subject to passing verification",
-  "site_inventory_sha256": "a04d0ee78add204b8093eb014cc1e6d6335d3d136175527ae321a569bcc173ef",
+  "destination_status": "Owner authorized publication after completed subscription testing",
+  "site_inventory_sha256": "480c5e2960f5caad4e3ae0de528bccbec33b9569adb7dfa8adc1144655dc14b3",
   "files": [
     {
       "file": ".nojekyll",
@@ -302,8 +302,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 23997,
-      "sha256": "ab29751867c8273adb9e6965c484d3b6ebd0272322c2a63f5e26454f7ae9425b"
+      "bytes": 23912,
+      "sha256": "61585a0cea44c21e5112ac3d0583daf6ddd8174d4892b80c56791e7825cc5809"
     },
     {
       "file": "magics-decision-desk.html",
@@ -317,8 +317,8 @@
     },
     {
       "file": "updates.html",
-      "bytes": 17017,
-      "sha256": "1fcfab31e1fb725d7d251d601dfedb255ece561cbf3a9e188eca0c2df342d332"
+      "bytes": 16952,
+      "sha256": "e81c0005b1a2abba1def2b66b2241038cfc43f6f8aec77912289a887113c2044"
     }
   ]
 }
