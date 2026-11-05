@@ -1,0 +1,18 @@
+{
+  "account_id": null,
+  "expected_plan_type": "UNVERIFIED",
+  "segment_id": null,
+  "segment_name": "UNCONFIGURED TEST SEGMENT",
+  "exclude_segment_ids": [],
+  "excluded_segment_names": {},
+  "production_segment_id": null,
+  "template_id": null,
+  "template_name": "UNCONFIGURED",
+  "audience_rules_reviewed": false,
+  "sender_reply_to_reviewed": false,
+  "footer_reviewed": false,
+  "owner_authorized": false,
+  "email_only_test_passed": false,
+  "test_only": true,
+  "expected_test_recipients": 1
+}

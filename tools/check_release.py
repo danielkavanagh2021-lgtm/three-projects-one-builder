@@ -2,7 +2,7 @@
 import argparse,hashlib,json,re,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-META={'.github/workflows/pages.yml','tools/check_release.py','README.md','PUBLIC-UPDATE-POLICY.md','release-manifest.json'}
+META={'.github/workflows/notifications.yml','.github/workflows/pages.yml','PUBLIC-UPDATE-POLICY.md','README.md','notification-release-notes.json','notifications/config.production.json','notifications/config.test.json','notifications/integration.py','notifications/notifier.py','notifications/observe.py','notifications/prepare_test.py','notifications/run.py','notifications/services.py','release-manifest.json','tools/check_release.py'}
 def inventory_digest(files):
  canonical=''.join(x['file']+'\t'+x['sha256']+'\n' for x in sorted(files,key=lambda x:x['file']))
  return hashlib.sha256(canonical.encode('utf-8')).hexdigest()

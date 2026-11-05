@@ -12,3 +12,18 @@
 The owner account and release operator are trusted. Someone already authorized to rewrite the repository/workflow can change these controls; the documented approval process and repository access management remain necessary. Credentials are supplied by GitHub only at workflow runtime, never stored in the portfolio.
 
 For W3, keep public RSS empty until an approved milestone has a verified published release receipt. Acceptance of a development checkpoint does not authorize an announcement. Email activation, controlled confirmation tests and every mailing require separate owner authorization. A later approved signup URL changes the release digest and requires a new manifest. Rollback must retain milestone identities and notification history; it cannot recall delivered email or RSS reader caches.
+
+
+## Conditional website-notification authorization
+
+The notification workflow remains disabled until the owner separately approves its
+configuration, exact controlled test and production activation. The existing
+requirement for separate mailing approval remains in force until that activation.
+After recorded standing activation approval, this reviewed workflow may announce
+meaningful, successfully published owner-approved public website changes to the
+reviewed consent segment. It may not ingest private project records or send from
+failed deployments. Asset notes must be privacy-reviewed and bound to the exact
+site inventory and before/after file hashes. Missing evidence or ambiguous send
+outcomes halt delivery for review. Notification history must survive rollback.
+All website releases continue through the existing manual owner-authorized Pages
+workflow; this exception does not authorize automatic website publication.

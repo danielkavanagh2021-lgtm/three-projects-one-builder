@@ -1,0 +1,148 @@
+# Installed for non-sending preparation. Workflow disabled; all switches false.
+# Deployment and schedule triggers require separate production activation approval.
+name: MrMagic website notifications
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Approved operation
+        type: choice
+        options: [preview, validate, test, production]
+        default: preview
+      test_authorized:
+        description: I separately authorize this exact single-recipient test broadcast
+        type: boolean
+        default: false
+      approved_message_sha256:
+        description: Exact reviewed test message digest (required for test)
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: mrmagic-notification-state
+  cancel-in-progress: false
+jobs:
+  preview:
+    if: >-
+      github.repository == 'danielkavanagh2021-lgtm/three-projects-one-builder' &&
+      github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' &&
+      github.actor == github.repository_owner && inputs.mode == 'preview' &&
+      vars.NOTIFICATION_PREVIEW_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 -B notifications/run.py preview --config notifications/config.production.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+  validate:
+    if: >-
+      github.repository == 'danielkavanagh2021-lgtm/three-projects-one-builder' &&
+      github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' &&
+      github.actor == github.repository_owner && inputs.mode == 'validate' &&
+      vars.NOTIFICATION_VALIDATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    environment: newsletter-test
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 -B notifications/run.py validate --config notifications/config.test.json
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_ACCOUNT_ID: ${{ secrets.KIT_ACCOUNT_ID }}
+          KIT_SEGMENT_ID: ${{ secrets.KIT_SEGMENT_ID }}
+          KIT_TEMPLATE_ID: ${{ secrets.KIT_TEMPLATE_ID }}
+          KIT_PRODUCTION_SEGMENT_ID: ${{ secrets.KIT_PRODUCTION_SEGMENT_ID }}
+          KIT_SEGMENT_NAME: ${{ vars.KIT_SEGMENT_NAME }}
+          KIT_TEMPLATE_NAME: ${{ vars.KIT_TEMPLATE_NAME }}
+          KIT_EXPECTED_PLAN_TYPE: ${{ vars.KIT_EXPECTED_PLAN_TYPE }}
+          KIT_EXCLUSION_CONFIG: ${{ vars.KIT_EXCLUSION_CONFIG }}
+          KIT_CONFIGURATION_APPROVED: ${{ vars.KIT_CONFIGURATION_APPROVED }}
+          KIT_AUDIENCE_REVIEWED: ${{ vars.KIT_AUDIENCE_REVIEWED }}
+          KIT_SENDER_REVIEWED: ${{ vars.KIT_SENDER_REVIEWED }}
+          KIT_FOOTER_REVIEWED: ${{ vars.KIT_FOOTER_REVIEWED }}
+          KIT_EMAIL_ONLY_TEST_PASSED: ${{ vars.KIT_EMAIL_ONLY_TEST_PASSED }}
+  delivery:
+    if: >-
+      github.repository == 'danielkavanagh2021-lgtm/three-projects-one-builder' &&
+      github.ref == 'refs/heads/main' && vars.NOTIFICATIONS_ENABLED == 'true' &&
+      ((github.event_name == 'workflow_run' && github.event.action == 'completed' &&
+        github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'workflow_dispatch' &&
+        github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository) ||
+       github.event_name == 'schedule' ||
+       (github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner && inputs.mode == 'production'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment: newsletter-production
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 -B notifications/run.py production --config notifications/config.production.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_ACCOUNT_ID: ${{ secrets.KIT_ACCOUNT_ID }}
+          KIT_SEGMENT_ID: ${{ secrets.KIT_SEGMENT_ID }}
+          KIT_TEMPLATE_ID: ${{ secrets.KIT_TEMPLATE_ID }}
+          KIT_PRODUCTION_SEGMENT_ID: ${{ secrets.KIT_PRODUCTION_SEGMENT_ID }}
+          KIT_SEGMENT_NAME: ${{ vars.KIT_SEGMENT_NAME }}
+          KIT_TEMPLATE_NAME: ${{ vars.KIT_TEMPLATE_NAME }}
+          KIT_EXPECTED_PLAN_TYPE: ${{ vars.KIT_EXPECTED_PLAN_TYPE }}
+          KIT_EXCLUSION_CONFIG: ${{ vars.KIT_EXCLUSION_CONFIG }}
+          KIT_CONFIGURATION_APPROVED: ${{ vars.KIT_CONFIGURATION_APPROVED }}
+          KIT_AUDIENCE_REVIEWED: ${{ vars.KIT_AUDIENCE_REVIEWED }}
+          KIT_SENDER_REVIEWED: ${{ vars.KIT_SENDER_REVIEWED }}
+          KIT_FOOTER_REVIEWED: ${{ vars.KIT_FOOTER_REVIEWED }}
+          KIT_EMAIL_ONLY_TEST_PASSED: ${{ vars.KIT_EMAIL_ONLY_TEST_PASSED }}
+          NOTIFICATIONS_ENABLED: ${{ vars.NOTIFICATIONS_ENABLED }}
+  controlled-test:
+    if: >-
+      github.repository == 'danielkavanagh2021-lgtm/three-projects-one-builder' &&
+      github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' &&
+      github.actor == github.repository_owner && inputs.mode == 'test' && inputs.test_authorized &&
+      vars.NOTIFICATION_TEST_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment: newsletter-test
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 -B notifications/run.py test --config notifications/config.test.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_ACCOUNT_ID: ${{ secrets.KIT_ACCOUNT_ID }}
+          KIT_SEGMENT_ID: ${{ secrets.KIT_SEGMENT_ID }}
+          KIT_TEMPLATE_ID: ${{ secrets.KIT_TEMPLATE_ID }}
+          KIT_PRODUCTION_SEGMENT_ID: ${{ secrets.KIT_PRODUCTION_SEGMENT_ID }}
+          KIT_SEGMENT_NAME: ${{ vars.KIT_SEGMENT_NAME }}
+          KIT_TEMPLATE_NAME: ${{ vars.KIT_TEMPLATE_NAME }}
+          KIT_EXPECTED_PLAN_TYPE: ${{ vars.KIT_EXPECTED_PLAN_TYPE }}
+          KIT_EXCLUSION_CONFIG: ${{ vars.KIT_EXCLUSION_CONFIG }}
+          KIT_CONFIGURATION_APPROVED: ${{ vars.KIT_CONFIGURATION_APPROVED }}
+          KIT_AUDIENCE_REVIEWED: ${{ vars.KIT_AUDIENCE_REVIEWED }}
+          KIT_SENDER_REVIEWED: ${{ vars.KIT_SENDER_REVIEWED }}
+          KIT_FOOTER_REVIEWED: ${{ vars.KIT_FOOTER_REVIEWED }}
+          KIT_EMAIL_ONLY_TEST_PASSED: ${{ vars.KIT_EMAIL_ONLY_TEST_PASSED }}
+          CONTROLLED_TEST_AUTHORIZED: ${{ inputs.test_authorized }}
+          APPROVED_TEST_MESSAGE_SHA256: ${{ inputs.approved_message_sha256 }}
