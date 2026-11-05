@@ -1,0 +1,2283 @@
+{
+  "schema": 2,
+  "generation": 0,
+  "last_announced": null,
+  "baseline": {
+    "receipt": {
+      "repository": "danielkavanagh2021-lgtm/three-projects-one-builder",
+      "workflow": "Owner-authorized Pages release",
+      "event": "workflow_dispatch",
+      "branch": "main",
+      "conclusion": "success",
+      "environment": "github-pages",
+      "sha": "416efa5da9db293ccef60110702501bc931200d4",
+      "latest_production_sha": "416efa5da9db293ccef60110702501bc931200d4",
+      "inventory_sha256": "480c5e2960f5caad4e3ae0de528bccbec33b9569adb7dfa8adc1144655dc14b3",
+      "live_inventory_sha256": "480c5e2960f5caad4e3ae0de528bccbec33b9569adb7dfa8adc1144655dc14b3",
+      "owner_publication_authorized": true,
+      "run_id": 41876524294
+    },
+    "verified_files": 63,
+    "bytes": 11336571,
+    "snapshot": {
+      "behind-the-build.html": {
+        "blocks": [
+          [
+            "h1",
+            "AI helps build the system. I’m responsible for the direction."
+          ],
+          [
+            "h2",
+            "A useful loop: direct, inspect, refine."
+          ],
+          [
+            "h2",
+            "Different stacks. Shared habits."
+          ],
+          [
+            "h2",
+            "Evidence has a scope."
+          ],
+          [
+            "h2",
+            "The boundary is part of the product."
+          ],
+          [
+            "h2",
+            "The story is the work: an idea, a system, a better question."
+          ],
+          [
+            "h3",
+            "A dashboard is not a supervisor."
+          ],
+          [
+            "h3",
+            "A quote is not an execution."
+          ],
+          [
+            "h3",
+            "A reading is not just a number."
+          ],
+          [
+            "h3",
+            "Approved design"
+          ],
+          [
+            "h3",
+            "Experimental"
+          ],
+          [
+            "h3",
+            "Implemented"
+          ],
+          [
+            "h3",
+            "Investigate the failure."
+          ],
+          [
+            "h3",
+            "Isolated validation"
+          ],
+          [
+            "h3",
+            "Make the result reviewable."
+          ],
+          [
+            "h3",
+            "Match the claim to the evidence."
+          ],
+          [
+            "h3",
+            "Planned"
+          ],
+          [
+            "h3",
+            "Privacy by selection"
+          ],
+          [
+            "h3",
+            "Recorded validation"
+          ],
+          [
+            "h3",
+            "Recovery and rollback"
+          ],
+          [
+            "h3",
+            "Source-aware data"
+          ],
+          [
+            "h3",
+            "Start with a real problem."
+          ],
+          [
+            "h3",
+            "Unknown or unverified"
+          ],
+          [
+            "p",
+            "01 / DEFINE"
+          ],
+          [
+            "p",
+            "02 / BUILD"
+          ],
+          [
+            "p",
+            "03 / DEBUG"
+          ],
+          [
+            "p",
+            "04 / VERIFY"
+          ],
+          [
+            "p",
+            "A dated test or observation supports a named checkpoint. The environment and known failures remain part of the result."
+          ],
+          [
+            "p",
+            "A documented intention or design. It is not presented as a completed feature."
+          ],
+          [
+            "p",
+            "A phone URL exposed a routing assumption. Candle reconciliation revealed unsupported data. A journal needed crash recovery. A watch handoff failed. Those failures are part of the engineering record, not details to erase from the story."
+          ],
+          [
+            "p",
+            "A screenshot proves appearance. A unit test proves a bounded case. A Simulator test proves behavior in that environment. Device acceptance and current production operation need their own evidence. I keep those milestones separate."
+          ],
+          [
+            "p",
+            "A selected visual direction. It may be artwork or a simulated interface rather than a working operational path."
+          ],
+          [
+            "p",
+            "AI made more iteration possible. Direct review, testing and troubleshooting turned those iterations into a body of work I can explain—and keep improving."
+          ],
+          [
+            "p",
+            "An investigation or integration exists but important device, meaning, delivery or reliability gates remain."
+          ],
+          [
+            "p",
+            "Available evidence does not establish the claim. The right response is to name the gap and define the next check."
+          ],
+          [
+            "p",
+            "BEHIND THE BUILD / DANIEL KAVANAGH"
+          ],
+          [
+            "p",
+            "Consider interruption, duplicate requests, ownership and preserved checkpoints. A successful request is not always a successful outcome."
+          ],
+          [
+            "p",
+            "Freshness, modeled fills, account identity and recovery determine whether a result can be trusted."
+          ],
+          [
+            "p",
+            "I direct, coordinate, test and manage development: I define the problems, review results and decide what to accept or refine. AI tools perform code generation and assist with research, documentation and test preparation. The portfolio distinguishes my decisions and validation from work performed by those tools."
+          ],
+          [
+            "p",
+            "LESSONS ACROSS THE THREE PROJECTS"
+          ],
+          [
+            "p",
+            "MrMagic Suite — Personal Projects. Real Problems. AI-Assisted Solutions."
+          ],
+          [
+            "p",
+            "Observation, automated safety and a user-authorized action need distinct responsibilities and receipts."
+          ],
+          [
+            "p",
+            "Preserve identity, units, timestamps, freshness and missing states before presenting a number."
+          ],
+          [
+            "p",
+            "Profile, unit, timing and overlap determine whether an observation belongs in a trend or daily total."
+          ],
+          [
+            "p",
+            "READING THE STATUS LABELS"
+          ],
+          [
+            "p",
+            "Share reviewed summaries and sanitized assets. Keep full records, private repositories and personal data outside the published surface."
+          ],
+          [
+            "p",
+            "Source contains the behavior. That alone does not prove a physical device, current deployment or complete test suite."
+          ],
+          [
+            "p",
+            "THE WORKFLOW"
+          ],
+          [
+            "p",
+            "THREE PROJECTS. ONE BUILDER."
+          ],
+          [
+            "p",
+            "TOOLS + DISCIPLINES"
+          ],
+          [
+            "p",
+            "The reviewed materials include Python, React and TypeScript, SwiftUI and SwiftData, HealthKit reads, CoreBluetooth, Zepp OS JavaScript, journaled records and source-controlled tests."
+          ],
+          [
+            "p",
+            "These applications are personal, noncommercial projects I develop to solve problems in my own life and demonstrate my skills using AI-assisted development tools. They are not offered for sale, commercial licensing or public use. This publicly accessible website is my professional portfolio."
+          ],
+          [
+            "p",
+            "They demonstrate project work across software and hardware. They are not a claim of employment history, credentials or universal expertise."
+          ],
+          [
+            "p",
+            "Use synthetic data and explicit review checkpoints. Never make a portfolio preview a control surface for production."
+          ],
+          [
+            "p",
+            "What would make the workflow useful? A stopped miner needs trustworthy state. A paper account needs an auditable result. A fitness reading needs a source and time. I set the objective and the constraints before accepting a screen."
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/10-Three-Projects-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/index.html#projects"
+        ]
+      },
+      "big-poppa.html": {
+        "blocks": [
+          [
+            "figcaption",
+            "DashboardSimulated Stage 1B values; original workload label generalized.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "HistoryApproved sample sessions and trends, not a production ledger.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Phone monitoringApproved phone layout with fictional telemetry.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Stage 1B · approved simulated interfaceClick to inspect full resolution ↗"
+          ],
+          [
+            "h1",
+            "Magic’s Mining Command"
+          ],
+          [
+            "h2",
+            "A clear boundary at every step."
+          ],
+          [
+            "h2",
+            "A mining rig becomes a system."
+          ],
+          [
+            "h2",
+            "Explore the interface."
+          ],
+          [
+            "h2",
+            "Keep the project story."
+          ],
+          [
+            "h2",
+            "What exists. What comes next."
+          ],
+          [
+            "h3",
+            "Big Poppa"
+          ],
+          [
+            "h3",
+            "Big Poppa Showcase"
+          ],
+          [
+            "h3",
+            "Dashboard"
+          ],
+          [
+            "h3",
+            "GPU + miner"
+          ],
+          [
+            "h3",
+            "Know what a reading means"
+          ],
+          [
+            "h3",
+            "Measure the complete run"
+          ],
+          [
+            "h3",
+            "Read-only adapter"
+          ],
+          [
+            "h3",
+            "Separate observation from authority"
+          ],
+          [
+            "h3",
+            "Supervisor"
+          ],
+          [
+            "h3",
+            "What the evidence supports"
+          ],
+          [
+            "h3",
+            "What the work revealed"
+          ],
+          [
+            "p",
+            "01 / OBSERVABILITY / AUTOMATION"
+          ],
+          [
+            "p",
+            "A mining rig becomes a system. A custom environment for understanding GPU performance, monitoring a mining workload and keeping operational authority deliberate."
+          ],
+          [
+            "p",
+            "A recorded, attended 15-minute validation reported 212.5 TH/s mean throughput and confirmed shutdown and power-limit restoration. It is a historical trial, not a current performance guarantee."
+          ],
+          [
+            "p",
+            "A recorder-admission correction exposed a native process-layout assumption that synthetic tests had missed. The recorded solution added a runtime self-check and independent comparison. A separate later stop-classification issue remained unresolved; one correction is not proof that every failure mode is closed."
+          ],
+          [
+            "p",
+            "A simplified architecture: responsibilities, not private infrastructure or deployment instructions."
+          ],
+          [
+            "p",
+            "A test boundary is part of the engineering."
+          ],
+          [
+            "p",
+            "Based on reviewed source and dated implementation records. This portfolio website does not run the application or certify current production state."
+          ],
+          [
+            "p",
+            "CURRENT CHECKPOINT · Approved Stage 1B interface. Later read-only telemetry is documented; persistent V2 controls remain unfinished."
+          ],
+          [
+            "p",
+            "Formerly Big Poppa Mining Command Center. The project history continues under the MrMagic Suite identity."
+          ],
+          [
+            "p",
+            "HOW IT FITS TOGETHER"
+          ],
+          [
+            "p",
+            "Hashrate, temperature, GPU utilization and power need units, source times and explicit unavailable states. A stopped miner can leave historical readings behind."
+          ],
+          [
+            "p",
+            "Images are clearly scoped. Open a screenshot to inspect the original-derived, full-resolution copy."
+          ],
+          [
+            "p",
+            "More than a hashrate counter: telemetry, workload ownership, bounded execution and independent stop evidence belong to different parts of the system."
+          ],
+          [
+            "p",
+            "One-page introduction to GPU monitoring and mining safety."
+          ],
+          [
+            "p",
+            "Optimization starts with an attributable baseline. The record supports a bounded GPU trial and measured power/thermal behavior. It does not support a claimed efficiency uplift, net profit or production CPU-mining capability."
+          ],
+          [
+            "p",
+            "Reviewed PDF project summaries are publicly available. The underlying mining, trading and fitness applications remain separately managed and are not distributed through this website."
+          ],
+          [
+            "p",
+            "STATUS, WITHOUT THE SPIN"
+          ],
+          [
+            "p",
+            "Selected, timestamped telemetry"
+          ],
+          [
+            "p",
+            "Six-page illustrated product and engineering introduction."
+          ],
+          [
+            "p",
+            "Status, trends + review"
+          ],
+          [
+            "p",
+            "THE ENGINEERING CHALLENGE"
+          ],
+          [
+            "p",
+            "THE PURPOSE"
+          ],
+          [
+            "p",
+            "THE TAKEAWAY"
+          ],
+          [
+            "p",
+            "The diagram describes source-backed responsibilities. It does not establish that every path is deployed or physically validated."
+          ],
+          [
+            "p",
+            "The existing supervisor owns the authorized workload and safety decisions. The dashboard’s simulated unlock and buttons do not establish production control."
+          ],
+          [
+            "p",
+            "VISUAL TOUR"
+          ],
+          [
+            "p",
+            "Work and observations"
+          ],
+          [
+            "p",
+            "Workload ownership + safeguards"
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/04-Big-Poppa-Showcase.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/07-Big-Poppa-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/big-dashboard.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/big-history.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/big-phone.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/magics-decision-desk.html"
+        ]
+      },
+      "formula-none-fitness.html": {
+        "blocks": [
+          [
+            "figcaption",
+            "APPROVED DESIGN / PREMIUM FUSIONStatic artwork. It describes the visual direction; it does not prove application behavior."
+          ],
+          [
+            "figcaption",
+            "Accessibility XXXLOne recorded large-text layout; full VoiceOver and device acceptance remain separate.ENLARGE SIMULATOR CAPTURE ↗"
+          ],
+          [
+            "figcaption",
+            "ActivityApproved artwork with fictional energy and movement values.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Empty TodayUnknown measurements stay unavailable; they are not fictional zeros.ENLARGE SIMULATOR CAPTURE ↗"
+          ],
+          [
+            "figcaption",
+            "GoalsApproved target-setting design, not a medical recommendation.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "IMPLEMENTED / TODAY M1 SIMULATORNative SwiftUI in iOS Simulator, using isolated fictional records through existing application models."
+          ],
+          [
+            "figcaption",
+            "Navigation and SettingsApproved artwork; existing native destinations are preserved in M1.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "ProgressApproved body-trend design with fictional records.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Protein and nutritionApproved artwork with fictional meal entries.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Unavailable serviceA deliberately simulated unavailable state, not real HealthKit authorization.ENLARGE SIMULATOR CAPTURE ↗"
+          ],
+          [
+            "figcaption",
+            "WorkoutsApproved Fusion artwork; not the M1 native redesign.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "h1",
+            "Magic’s Fitness Companion"
+          ],
+          [
+            "h2",
+            "A clear boundary at every step."
+          ],
+          [
+            "h2",
+            "Absence is a real state."
+          ],
+          [
+            "h2",
+            "Connecting hardware means preserving meaning."
+          ],
+          [
+            "h2",
+            "Explore the interface."
+          ],
+          [
+            "h2",
+            "Fitness software at the hardware boundary."
+          ],
+          [
+            "h2",
+            "Keep the project story."
+          ],
+          [
+            "h2",
+            "Today, from direction to native implementation."
+          ],
+          [
+            "h2",
+            "What exists. What comes next."
+          ],
+          [
+            "h3",
+            "A GE CS10G scale, on the app’s terms."
+          ],
+          [
+            "h3",
+            "Domain engines"
+          ],
+          [
+            "h3",
+            "Explore the hardware"
+          ],
+          [
+            "h3",
+            "Fresher calorie data. Honest timing."
+          ],
+          [
+            "h3",
+            "Inputs"
+          ],
+          [
+            "h3",
+            "Keep missing data honest"
+          ],
+          [
+            "h3",
+            "Magic’s Fitness Companion"
+          ],
+          [
+            "h3",
+            "Magic’s Fitness Companion Showcase"
+          ],
+          [
+            "h3",
+            "Native models"
+          ],
+          [
+            "h3",
+            "SwiftUI"
+          ],
+          [
+            "h3",
+            "Train and record"
+          ],
+          [
+            "h3",
+            "What the evidence supports"
+          ],
+          [
+            "h3",
+            "What the work revealed"
+          ],
+          [
+            "p",
+            "03 / NATIVE iOS / CONSUMER HARDWARE"
+          ],
+          [
+            "p",
+            "A cumulative calorie counter is not a stream to sum repeatedly. Source age, collection time, phone receipt and background limits must stay explicit. Automatic continuous delivery and battery reliability are not established."
+          ],
+          [
+            "p",
+            "A simplified architecture: responsibilities, not private infrastructure or deployment instructions."
+          ],
+          [
+            "p",
+            "A valid packet can still be the wrong measurement."
+          ],
+          [
+            "p",
+            "APPROVED → IMPLEMENTED"
+          ],
+          [
+            "p",
+            "Actual Simulator captures. Empty stores and Health service states are deliberately simulated."
+          ],
+          [
+            "p",
+            "An existing workout-count regression assertion also fails on unchanged baseline. No complete-suite or hardware pass is claimed."
+          ],
+          [
+            "p",
+            "Based on reviewed source and dated implementation records. This portfolio website does not run the application or certify current production state."
+          ],
+          [
+            "p",
+            "Body trends separate gaps and source baselines. Energy retains coverage and overlap rules. Empty, loading and unavailable states are explicit rather than converted into invented zeros."
+          ],
+          [
+            "p",
+            "CASE 01 / SMART SCALE"
+          ],
+          [
+            "p",
+            "CASE 02 / WATCH COMPANION"
+          ],
+          [
+            "p",
+            "CURRENT CHECKPOINT · Today M1 is implemented in Simulator. The other Fusion screens remain approved artwork; physical-device and hardware acceptance are separate."
+          ],
+          [
+            "p",
+            "ENGINEERING CASE STUDIES"
+          ],
+          [
+            "p",
+            "Energy + progress rules"
+          ],
+          [
+            "p",
+            "Existing native models handle planned workouts, exercise records, activity, goals and nutrition. Today M1 changes presentation while preserving the existing data engines and destinations."
+          ],
+          [
+            "p",
+            "Fitness software at the hardware boundary. A native iOS fitness project bringing workouts, activity, body trends, goals and nutrition together—and investigating the consumer devices behind the data."
+          ],
+          [
+            "p",
+            "Formerly Formula None Fitness. The project history continues under the MrMagic Suite identity."
+          ],
+          [
+            "p",
+            "HOW IT FITS TOGETHER"
+          ],
+          [
+            "p",
+            "Hardware integration must preserve profile identity, timing, units and meaning. A packet can decode correctly yet belong to another profile; a repeated daily calorie counter must not be summed as a stream. Those are product correctness problems as much as connectivity problems."
+          ],
+          [
+            "p",
+            "Identity, dates + persistence"
+          ],
+          [
+            "p",
+            "Images are clearly scoped. Open a screenshot to inspect the original-derived, full-resolution copy."
+          ],
+          [
+            "p",
+            "M1 DATA + ACCESSIBILITY STATES"
+          ],
+          [
+            "p",
+            "Magic’s Fitness Companion is a personal-use application. It is not being prepared for public release; this website shares the project story and reviewed documentation."
+          ],
+          [
+            "p",
+            "Manual records + Health reads"
+          ],
+          [
+            "p",
+            "One-page introduction to native fitness and hardware work."
+          ],
+          [
+            "p",
+            "Recorded passes cover populated navigation, missing/loading/unavailable data and Accessibility XXXL at one Simulator width."
+          ],
+          [
+            "p",
+            "Reviewed PDF project summaries are publicly available. The underlying mining, trading and fitness applications remain separately managed and are not distributed through this website."
+          ],
+          [
+            "p",
+            "STATUS, WITHOUT THE SPIN"
+          ],
+          [
+            "p",
+            "Six-page native fitness, smart-scale and watch story."
+          ],
+          [
+            "p",
+            "THE ENGINEERING CHALLENGE"
+          ],
+          [
+            "p",
+            "THE PURPOSE"
+          ],
+          [
+            "p",
+            "THE TAKEAWAY"
+          ],
+          [
+            "p",
+            "That requires more than connecting to Bluetooth: fragmented messages, checksums, capability differences and household-profile isolation all affect whether a measurement belongs in progress."
+          ],
+          [
+            "p",
+            "The GE CS10G scale path and Zepp OS Active 2 companion contain substantial source-backed integration work. Protocol code and a UI are not substitutes for physical end-to-end acceptance."
+          ],
+          [
+            "p",
+            "The approved Premium Fusion direction now has a native Today M1 implementation in iOS Simulator. Scale and watch experiments add protocol, timing and data-identity challenges beyond the interface."
+          ],
+          [
+            "p",
+            "The available companion targets Zepp OS Active 2. Apple Health reads on iPhone are a separate integration. No native Apple Watch/watchOS application or uninterrupted calorie-reporting capability is claimed."
+          ],
+          [
+            "p",
+            "The available watch companion targets Zepp OS Active 2. It collects counter snapshots and timing context, with phone receipts and a reviewed import path. A failed phone handoff led to a separate metadata-only BLE probe."
+          ],
+          [
+            "p",
+            "The diagram describes source-backed responsibilities. It does not establish that every path is deployed or physically validated."
+          ],
+          [
+            "p",
+            "The hierarchy and palette carry through; native safe areas, typography and the floating tab bar differ. M1 preserves Today / Plan / Activity / Protein / More. The other Fusion screens are not part of this redesign. Physical iPhone installation and owner acceptance remain pending."
+          ],
+          [
+            "p",
+            "The project implements a targeted GE CS10G revision’s BLE session, packet assembly and measurement interpretation. The reviewed capture path preserves profile, source and time before an explicit app-local save."
+          ],
+          [
+            "p",
+            "The report also notes content passing beneath the transparent status area while scrolling, and unverified VoiceOver, other widths and physical-device behavior."
+          ],
+          [
+            "p",
+            "The report lists 139 passing portable checks plus 17 scale-core cases. These are project records, not tests rerun by this website."
+          ],
+          [
+            "p",
+            "The source references published interoperability research. Physical end-to-end acceptance remains experimental. This path does not establish HealthKit writes or universal scale compatibility."
+          ],
+          [
+            "p",
+            "These are different kinds of evidence. Both images use fictional demonstration data."
+          ],
+          [
+            "p",
+            "Today + existing destinations"
+          ],
+          [
+            "p",
+            "VISUAL TOUR"
+          ],
+          [
+            "p",
+            "iPhone HealthKit reads of supported Apple Health records are independent. No native Apple Watch/watchOS application is evidenced in the inspected material."
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/06-Formula-None-Fitness-Showcase.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/09-Formula-None-Fitness-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-activity.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-dashboard.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-goals.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-nutrition.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-progress.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-settings.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/fitness-workouts.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/m1-accessibility-top.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/m1-empty-top.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/m1-populated-top.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/m1-unavailable-lower.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/big-poppa.html"
+        ]
+      },
+      "index.html": {
+        "blocks": [
+          [
+            "h1",
+            "THREE PROJECTS. ONE BUILDER."
+          ],
+          [
+            "h2",
+            "Four introductions. One page each."
+          ],
+          [
+            "h2",
+            "Good tools can accelerate the build. Judgment makes it worth showing."
+          ],
+          [
+            "h2",
+            "I direct the work. AI accelerates the iteration."
+          ],
+          [
+            "h2",
+            "Less searching. More doing."
+          ],
+          [
+            "h2",
+            "Magic’s Design Studio"
+          ],
+          [
+            "h2",
+            "MrMagic Suite — Personal Projects. Real Problems. AI-Assisted Solutions."
+          ],
+          [
+            "h2",
+            "The interesting work is beneath the surface."
+          ],
+          [
+            "h2",
+            "The work keeps moving."
+          ],
+          [
+            "h2",
+            "Three different problems. One engineering mindset."
+          ],
+          [
+            "h2",
+            "Three projects. The next chapter."
+          ],
+          [
+            "h3",
+            "01 · Make the problem concrete"
+          ],
+          [
+            "h3",
+            "02 · Build something reviewable"
+          ],
+          [
+            "h3",
+            "03 · Investigate what fails"
+          ],
+          [
+            "h3",
+            "04 · Advance deliberately"
+          ],
+          [
+            "h3",
+            "Decode the meaning, not just the bytes."
+          ],
+          [
+            "h3",
+            "Evidence with the answer."
+          ],
+          [
+            "h3",
+            "Follow by RSS. No email needed."
+          ],
+          [
+            "h3",
+            "From simulated sign-in to real-device validation"
+          ],
+          [
+            "h3",
+            "Magic’s Decision Desk"
+          ],
+          [
+            "h3",
+            "Magic’s Design Studio"
+          ],
+          [
+            "h3",
+            "Magic’s Fitness Companion"
+          ],
+          [
+            "h3",
+            "Magic’s Mining Command"
+          ],
+          [
+            "h3",
+            "Read-only by design."
+          ],
+          [
+            "h3",
+            "Record what actually happened."
+          ],
+          [
+            "h3",
+            "Subscribe to Project Updates"
+          ],
+          [
+            "h3",
+            "Supported questions."
+          ],
+          [
+            "h3",
+            "Three Projects. One Builder."
+          ],
+          [
+            "h3",
+            "Validate the shutdown, too."
+          ],
+          [
+            "li",
+            "01Define the operationConfirm the source, reuse rights, units and intended result."
+          ],
+          [
+            "li",
+            "02Automate repeatable workPlan bounded modeling tasks with cancellation and recovery."
+          ],
+          [
+            "li",
+            "03Check the designVerify geometry, dimensions and export behavior using appropriate tests."
+          ],
+          [
+            "li",
+            "04Review before acceptanceA person decides what is accepted. Changes require renewed review."
+          ],
+          [
+            "p",
+            "01 / OBSERVABILITY / AUTOMATION"
+          ],
+          [
+            "p",
+            "02 / MARKET DATA / DECISION SYSTEMS"
+          ],
+          [
+            "p",
+            "03 / NATIVE iOS / CONSUMER HARDWARE"
+          ],
+          [
+            "p",
+            "04 / EARLY DEVELOPMENT · PLANNING & RESEARCH"
+          ],
+          [
+            "p",
+            "A SHARED IDENTITY / DISTINCT PROJECTS"
+          ],
+          [
+            "p",
+            "A custom environment for understanding GPU performance, monitoring a mining workload and keeping operational authority deliberate."
+          ],
+          [
+            "p",
+            "A dated, attended GPU trial recorded performance, confirmed process shutdown and independently checked power-limit restoration. The dashboard is only one layer."
+          ],
+          [
+            "p",
+            "A defined question set and consistent /help examples. Unsupported requests should be identified clearly."
+          ],
+          [
+            "p",
+            "A journal distinguishes an intention from a modeled fill, refusal or interrupted result. Recovery and account separation matter as much as the chart."
+          ],
+          [
+            "p",
+            "A native iOS fitness project bringing workouts, activity, body trends, goals and nutrition together—and investigating the consumer devices behind the data."
+          ],
+          [
+            "p",
+            "A paper-only cryptocurrency application that explores the complete path from public market observations to evaluation, modeled execution and review."
+          ],
+          [
+            "p",
+            "A shared, non-generative question interface grounded in authorized, verified data."
+          ],
+          [
+            "p",
+            "A visual approval, a Simulator pass and a production release are different milestones."
+          ],
+          [
+            "p",
+            "AI-Assisted Software Development, Hardware Integration & Automation"
+          ],
+          [
+            "p",
+            "ASK MRMAGIC / PLANNED · NOT DEPLOYED"
+          ],
+          [
+            "p",
+            "Ask MrMagic is not a generative AI chatbot or autonomous agent. Any future implementation needs authorization, freshness, accuracy and resource-use testing before operational use."
+          ],
+          [
+            "p",
+            "CAD & 3D Modeling Automation"
+          ],
+          [
+            "p",
+            "CAD & 3D Modeling Automation. Planning and research."
+          ],
+          [
+            "p",
+            "Choose every milestone or just the projects you care about. Remove a feed from your reader whenever you want."
+          ],
+          [
+            "p",
+            "DANIEL KAVANAGH / THE MRMAGIC SUITE"
+          ],
+          [
+            "p",
+            "EXAMPLE SUPPORTED QUESTION · PROPOSED"
+          ],
+          [
+            "p",
+            "Each project reaches beyond its interface into data, runtime behavior or consumer hardware."
+          ],
+          [
+            "p",
+            "Existing planning and a shared development playbook inform the direction. They do not establish an implemented converter, model-generation workflow or finished product."
+          ],
+          [
+            "p",
+            "Explore the interfaces. Follow the engineering. See exactly what is implemented, what was tested and what comes next."
+          ],
+          [
+            "p",
+            "FOLLOW THE WORK"
+          ],
+          [
+            "p",
+            "First implementation work still ahead: confirm the CAD host and supported formats, then test small synthetic geometry, validation and recovery."
+          ],
+          [
+            "p",
+            "Follow reviewed project announcements in the all-project feed or choose a project above. Mining and Fitness feeds are currently empty."
+          ],
+          [
+            "p",
+            "Formerly Big Poppa Mining Command Center."
+          ],
+          [
+            "p",
+            "Formerly Formula None Fitness."
+          ],
+          [
+            "p",
+            "I direct, coordinate, test and manage development: I define the problems, review results and decide what to accept or refine. AI tools perform code generation and assist with research, documentation and test preparation. The portfolio distinguishes my decisions and validation from work performed by those tools."
+          ],
+          [
+            "p",
+            "I turn personal problems into software projects—and use AI to help build, test and refine them. Meet the MrMagic Suite: three existing projects, with a fourth direction taking shape."
+          ],
+          [
+            "p",
+            "Illustrated PDFs for quick reading, sharing or printing. Reviewed project summaries. These unchanged PDFs retain their original project names."
+          ],
+          [
+            "p",
+            "Keep failures visible. Correct the implementation or narrow the claim."
+          ],
+          [
+            "p",
+            "LATEST MILESTONES"
+          ],
+          [
+            "p",
+            "M7’s recorded 12-step real-device plan passed with iPhone Face ID and Windows Hello, and 14 simulated unauthorized requests were refused. M7f adds development hardening: 448 tests run, suite OK with one skipped, plus 31/31 simulated browser checks. Production authentication is NOT DEPLOYED. Trading is DISABLED."
+          ],
+          [
+            "p",
+            "Make repeatable design work easier to inspect, verify and control."
+          ],
+          [
+            "p",
+            "Meaningful progress, with the evidence and limits intact. Follow Mining, Trading and Fitness as the work develops."
+          ],
+          [
+            "p",
+            "No live source is connected to this illustration."
+          ],
+          [
+            "p",
+            "Occasional updates about completed personal development milestones and portfolio improvements."
+          ],
+          [
+            "p",
+            "One-page introduction to GPU monitoring and mining safety."
+          ],
+          [
+            "p",
+            "One-page introduction to native fitness and hardware work."
+          ],
+          [
+            "p",
+            "One-page introduction to public data and paper decisions."
+          ],
+          [
+            "p",
+            "PROPOSED WORKFLOW / HUMAN CONTROL"
+          ],
+          [
+            "p",
+            "Planned source identification, timestamps, stale-data warnings and explicit unavailable states. No invented information."
+          ],
+          [
+            "p",
+            "Planned: show supported questions and explain unavailable data."
+          ],
+          [
+            "p",
+            "Planning diagram—not a CAD model, application screenshot or completed automation."
+          ],
+          [
+            "p",
+            "Production authentication NOT DEPLOYED · Trading DISABLED"
+          ],
+          [
+            "p",
+            "Project pages also include the three six-page showcases. Full technical guides, editable files, private records and the complete private collection are excluded from this website."
+          ],
+          [
+            "p",
+            "Proposed private access boundaries and reuse of authorized read-only services. Minimal overhead is a design goal, not a measured result."
+          ],
+          [
+            "p",
+            "SELECTED ENGINEERING"
+          ],
+          [
+            "p",
+            "Scale profiles, packet assembly, calorie-counter timing and missing data are correctness problems. Hardware acceptance stays separate from source-code evidence."
+          ],
+          [
+            "p",
+            "See the milestone timeline ↗"
+          ],
+          [
+            "p",
+            "Signup is hosted by Kit. Email confirmation is required. No spam. Unsubscribe anytime. No email addresses are collected by this portfolio website."
+          ],
+          [
+            "p",
+            "Start with a real workflow and an explicit boundary."
+          ],
+          [
+            "p",
+            "Static illustration only. No question is submitted, no data is retrieved and no application is connected."
+          ],
+          [
+            "p",
+            "TAKE THE STORY WITH YOU"
+          ],
+          [
+            "p",
+            "THE BODY OF WORK"
+          ],
+          [
+            "p",
+            "THE BUILDER’S ROLE"
+          ],
+          [
+            "p",
+            "THREE PROJECTS. ONE BUILDER."
+          ],
+          [
+            "p",
+            "The complete story in a single illustrated page."
+          ],
+          [
+            "p",
+            "The existing name. Paper-trading and decision-analysis work."
+          ],
+          [
+            "p",
+            "The family name expresses a shared direction. It does not mean the applications are already connected or distributed together. Original screenshots and reviewed PDFs retain their historical names."
+          ],
+          [
+            "p",
+            "The long-term goal: ask supported mining, trading or fitness questions from whichever Magic application you are using. Factual answers would come from approved data sources, with their source, timestamp and freshness clearly identified."
+          ],
+          [
+            "p",
+            "The proposed direction combines AI-assisted CAD workflows, repeatable modeling operations and design verification, with human review before consequential changes. Engineering productivity is the goal; a released CAD application is not being claimed."
+          ],
+          [
+            "p",
+            "These applications are personal, noncommercial projects I develop to solve problems in my own life and demonstrate my skills using AI-assisted development tools. They are not offered for sale, commercial licensing or public use. This publicly accessible website is my professional portfolio."
+          ],
+          [
+            "p",
+            "This is a future-development concept. There is no completed cross-application bridge or working Ask MrMagic implementation being announced."
+          ],
+          [
+            "p",
+            "Three established personal projects. One new direction in CAD. A consistent software family, with each application’s history and development status kept clear."
+          ],
+          [
+            "p",
+            "Use source, approved visuals and isolated tests to inspect the result."
+          ],
+          [
+            "p",
+            "YOUR READER. YOUR CHOICE."
+          ],
+          [
+            "p",
+            "“What is the current mining hashrate?”"
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/#ask-magic",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/#design-studio",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/#projects",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/07-Big-Poppa-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/08-Magics-Decision-Desk-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/09-Formula-None-Fitness-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/10-Three-Projects-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/behind-the-build.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/big-poppa.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-fitness.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-mining.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-trading.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/formula-none-fitness.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/magics-decision-desk.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#future-development",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#latest",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#trading-m7-real-device-auth-hardening"
+        ]
+      },
+      "magics-decision-desk.html": {
+        "blocks": [
+          [
+            "figcaption",
+            "Expanded phone positionA fictional position state in the read-only M6 desk.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Markets and preview ticketPublic market chart and local ticket preview. Private cycle/watchlist records removed; confirmation remains disabled.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "My Paper DeskExplicit synthetic test account, read-only, with made-up trades.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "figcaption",
+            "Premium Concept C · development visual referenceClick to inspect full resolution ↗"
+          ],
+          [
+            "figcaption",
+            "Premium Concept CConcept C interface; private historical paper records removed. No real-money account.ENLARGE ORIGINAL-DERIVED IMAGE ↗"
+          ],
+          [
+            "h1",
+            "Magic’s Decision Desk"
+          ],
+          [
+            "h2",
+            "A clear boundary at every step."
+          ],
+          [
+            "h2",
+            "A review surface. A deliberate write boundary."
+          ],
+          [
+            "h2",
+            "Explore the interface."
+          ],
+          [
+            "h2",
+            "From market noise to an accountable decision."
+          ],
+          [
+            "h2",
+            "Keep the project story."
+          ],
+          [
+            "h2",
+            "What exists. What comes next."
+          ],
+          [
+            "h3",
+            "Discover, then qualify"
+          ],
+          [
+            "h3",
+            "Journal + review"
+          ],
+          [
+            "h3",
+            "Keep the accounts separate"
+          ],
+          [
+            "h3",
+            "Live data ≠ live trading"
+          ],
+          [
+            "h3",
+            "M7 / real-device validation and hardening"
+          ],
+          [
+            "h3",
+            "M8 / later authenticated writes"
+          ],
+          [
+            "h3",
+            "Magic’s Decision Desk"
+          ],
+          [
+            "h3",
+            "Magic’s Decision Desk Showcase"
+          ],
+          [
+            "h3",
+            "Opportunity funnel"
+          ],
+          [
+            "h3",
+            "Paper decision"
+          ],
+          [
+            "h3",
+            "Preserve intent and outcome"
+          ],
+          [
+            "h3",
+            "Public market data"
+          ],
+          [
+            "h3",
+            "What the evidence supports"
+          ],
+          [
+            "h3",
+            "What the work revealed"
+          ],
+          [
+            "p",
+            "02 / MARKET DATA / DECISION SYSTEMS"
+          ],
+          [
+            "p",
+            "A simplified architecture: responsibilities, not private infrastructure or deployment instructions."
+          ],
+          [
+            "p",
+            "AI-assisted comparisons are an evaluation concept, not evidence of a profitable or autonomous trading model. Ask MrMagic and Arena screens do not establish a continuously running paid AI service."
+          ],
+          [
+            "p",
+            "An intent is not a fill."
+          ],
+          [
+            "p",
+            "Based on reviewed source and dated implementation records. This portfolio website does not run the application or certify current production state."
+          ],
+          [
+            "p",
+            "CURRENT CHECKPOINT · M7 real-device authentication passed its recorded 12-step plan. M7f hardening is complete in development. Production authentication is NOT DEPLOYED; trading is DISABLED and paper-trade writes are refused. Focused M7f device acceptance and production rollout remain pending."
+          ],
+          [
+            "p",
+            "Distinct opportunity lists feed a timestamped observation window and versioned risk policy. A ranked coin is a candidate for evaluation, not an automatic instruction to buy."
+          ],
+          [
+            "p",
+            "From market noise to an accountable decision. A paper-only cryptocurrency application that explores the complete path from public market observations to evaluation, modeled execution and review."
+          ],
+          [
+            "p",
+            "HOW IT FITS TOGETHER"
+          ],
+          [
+            "p",
+            "Images are clearly scoped. Open a screenshot to inspect the original-derived, full-resolution copy."
+          ],
+          [
+            "p",
+            "M7’s recorded device plan passed with iPhone Face ID and Windows Hello. M7f adds fresh device authorization, server-side trade refusal and recovery safeguards in development. Production authentication is NOT DEPLOYED; trading is DISABLED."
+          ],
+          [
+            "p",
+            "MY PAPER DESK / M6"
+          ],
+          [
+            "p",
+            "One-page introduction to public data and paper decisions."
+          ],
+          [
+            "p",
+            "Personal paper-trade execution requires a separately implemented and validated boundary. Real-money execution is outside the inspected capability."
+          ],
+          [
+            "p",
+            "Policy + modeled execution"
+          ],
+          [
+            "p",
+            "Public Coinbase observations can be live while the bot is stopped. Stored positions are not evidence that rules are actively managing them."
+          ],
+          [
+            "p",
+            "Ranking + readiness"
+          ],
+          [
+            "p",
+            "Recorded corrections address interrupted intents, repeated requests and a crash gap during account initialization. Refusing an uncertain outcome is safer than inventing a completed trade. Thin-coin candle reconciliation also led the implementation to withhold unsupported derived series."
+          ],
+          [
+            "p",
+            "Reliable trading software needs more than charts. A quote has a time, an intent can be refused, a modeled fill needs assumptions, and an account needs a recoverable record."
+          ],
+          [
+            "p",
+            "Reviewed PDF project summaries are publicly available. The underlying mining, trading and fitness applications remain separately managed and are not distributed through this website. The PDFs describe an earlier project checkpoint; the current authentication milestone is documented above."
+          ],
+          [
+            "p",
+            "STATUS, WITHOUT THE SPIN"
+          ],
+          [
+            "p",
+            "Separate account outcomes"
+          ],
+          [
+            "p",
+            "Six-page introduction to accountable paper-trading systems."
+          ],
+          [
+            "p",
+            "THE ENGINEERING CHALLENGE"
+          ],
+          [
+            "p",
+            "THE PURPOSE"
+          ],
+          [
+            "p",
+            "THE TAKEAWAY"
+          ],
+          [
+            "p",
+            "The $250 starting-account concept supports controlled paper comparisons. Automated bot, personal desk and Arena contest contexts are separate; their balances and outcomes must not be combined."
+          ],
+          [
+            "p",
+            "The M6 desk library records intent, fill or refusal, replay and duplicate prevention. The visible personal ticket cannot write a trade at this checkpoint."
+          ],
+          [
+            "p",
+            "The diagram describes source-backed responsibilities. It does not establish that every path is deployed or physically validated."
+          ],
+          [
+            "p",
+            "The screenshot explicitly shows a disposable synthetic account. The read view can expose balances, positions, fees and journal outcomes without authorizing a new trade."
+          ],
+          [
+            "p",
+            "Timestamped observations"
+          ],
+          [
+            "p",
+            "VISUAL TOUR"
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/05-Magics-Decision-Desk-Showcase.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/downloads/08-Magics-Decision-Desk-One-Page.pdf",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/magic-desk-phone.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/magic-desk.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/magic-home.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/assets/images/magic-markets.webp",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/formula-none-fitness.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#trading-m7-real-device-auth-hardening"
+        ]
+      },
+      "updates.html": {
+        "blocks": [
+          [
+            "h1",
+            "Follow the milestones. Understand the progress."
+          ],
+          [
+            "h2",
+            "Evidence first. Approval before release."
+          ],
+          [
+            "h2",
+            "From simulated sign-in to real-device validation"
+          ],
+          [
+            "h2",
+            "Progress, in context."
+          ],
+          [
+            "h2",
+            "Three projects. The next chapter."
+          ],
+          [
+            "h2",
+            "What’s Next in the MrMagic Suite"
+          ],
+          [
+            "h3",
+            "A real-device checkpoint"
+          ],
+          [
+            "h3",
+            "Ask MrMagic"
+          ],
+          [
+            "h3",
+            "Deliberate delivery"
+          ],
+          [
+            "h3",
+            "Fitness reliability"
+          ],
+          [
+            "h3",
+            "Follow by RSS. No email needed."
+          ],
+          [
+            "h3",
+            "From simulated sign-in to real-device validation"
+          ],
+          [
+            "h3",
+            "M7 device-plan steps"
+          ],
+          [
+            "h3",
+            "M7f browser checks"
+          ],
+          [
+            "h3",
+            "M7f repository tests run"
+          ],
+          [
+            "h3",
+            "Magic’s Design Studio"
+          ],
+          [
+            "h3",
+            "Reuse read-only services"
+          ],
+          [
+            "h3",
+            "Reviewed release"
+          ],
+          [
+            "h3",
+            "Status, across applications"
+          ],
+          [
+            "h3",
+            "Subscribe to Project Updates"
+          ],
+          [
+            "h3",
+            "The evidence, with its limits"
+          ],
+          [
+            "h3",
+            "Unauthorized requests refused"
+          ],
+          [
+            "h3",
+            "Verified context"
+          ],
+          [
+            "h3",
+            "What testing changed"
+          ],
+          [
+            "h3",
+            "Where the project stands"
+          ],
+          [
+            "p",
+            "1 milestone"
+          ],
+          [
+            "p",
+            "5 future-development items"
+          ],
+          [
+            "p",
+            "A direction for the work ahead, with honest boundaries. These plans are separate from the published milestone timeline and carry no promised release dates."
+          ],
+          [
+            "p",
+            "A shared, non-generative interface for supported questions, factual answers, /help examples and clear source/freshness information."
+          ],
+          [
+            "p",
+            "An interface approved. A test passed. A hardware assumption corrected. Each is progress—and each deserves an accurate description."
+          ],
+          [
+            "p",
+            "Assess existing authorized data services before building new connections. Compatibility, permissions and freshness still require verification."
+          ],
+          [
+            "p",
+            "BEFORE ANY ANNOUNCEMENT"
+          ],
+          [
+            "p",
+            "Choose every milestone or just the projects you care about. Remove a feed from your reader whenever you want."
+          ],
+          [
+            "p",
+            "Continue improving the personal fitness app’s reliability, with device behavior and data handling verified before new operational claims."
+          ],
+          [
+            "p",
+            "Descriptions, screenshots and documents receive privacy and accuracy review, then owner approval for the exact public files."
+          ],
+          [
+            "p",
+            "Develop the CAD automation direction: repeatable operations, design verification and human review. Working capabilities and a product release remain unverified."
+          ],
+          [
+            "p",
+            "Evidence checkpoint: 3 November 2026 · Based on reviewed project reports and implementation tests."
+          ],
+          [
+            "p",
+            "Evidence scope: recorded project results and source inspection. These application tests were not independently rerun for this portfolio announcement."
+          ],
+          [
+            "p",
+            "FOLLOW THE WORK"
+          ],
+          [
+            "p",
+            "FUTURE DEVELOPMENT / NOT COMPLETED MILESTONES"
+          ],
+          [
+            "p",
+            "Follow reviewed project announcements in the all-project feed or choose a project above. Mining and Fitness feeds are currently empty."
+          ],
+          [
+            "p",
+            "LATEST MILESTONES"
+          ],
+          [
+            "p",
+            "M7 real-device validation is recorded as complete, and M7f hardening is complete in development. Production authentication is NOT DEPLOYED. Trading is DISABLED, and this authentication build refuses paper-trade writes. The portfolio presents the work; it does not provide access to the underlying application."
+          ],
+          [
+            "p",
+            "M7f changes to device authorization and the device-side emergency lock still need a focused real-device smoke test. Production setup and deployment remain separate, owner-approved steps. Passing these checks is not a claim that every security risk has been eliminated."
+          ],
+          [
+            "p",
+            "M7’s recorded 12-step real-device plan passed with iPhone Face ID and Windows Hello, and 14 simulated unauthorized requests were refused. M7f adds development hardening: 448 tests run, suite OK with one skipped, plus 31/31 simulated browser checks. Production authentication is NOT DEPLOYED. Trading is DISABLED."
+          ],
+          [
+            "p",
+            "MAGIC’S DECISION DESK / M7 + M7f"
+          ],
+          [
+            "p",
+            "Magic’s Decision Desk completes its M7 device test plan and M7f development hardening."
+          ],
+          [
+            "p",
+            "Magic’s Decision Desk has moved from simulated passkey testing to recorded validation on real devices. The M7 project report documents successful iPhone Face ID and Windows Hello authentication in an isolated test environment. All 12 steps in the device test plan passed; 14 of 14 simulated unauthorized requests were rejected."
+          ],
+          [
+            "p",
+            "Meaningful progress, with the evidence and limits intact. Follow Mining, Trading and Fitness as the work develops."
+          ],
+          [
+            "p",
+            "Occasional updates about completed personal development milestones and portfolio improvements."
+          ],
+          [
+            "p",
+            "PRODUCTION AUTHENTICATION: NOT DEPLOYED TRADING: DISABLED · No production activation is announced."
+          ],
+          [
+            "p",
+            "Production authentication NOT DEPLOYED · Trading DISABLED"
+          ],
+          [
+            "p",
+            "Project features and current development status are documented separately. New milestones appear here only after review and publication."
+          ],
+          [
+            "p",
+            "Project records are checked against source. A commit alone does not become news. Simulator, design and hardware results stay distinct."
+          ],
+          [
+            "p",
+            "Recorded real-device test plan passed."
+          ],
+          [
+            "p",
+            "Signup is hosted by Kit. Email confirmation is required. No spam. Unsubscribe anytime. No email addresses are collected by this portfolio website."
+          ],
+          [
+            "p",
+            "Simulated passkeys; disposable data."
+          ],
+          [
+            "p",
+            "Simulated requests during the M7 exercise."
+          ],
+          [
+            "p",
+            "Small mining and trading status cards, such as mining hashrate, inside other Magic applications. Cross-app access is not implemented."
+          ],
+          [
+            "p",
+            "Suite OK; one skipped."
+          ],
+          [
+            "p",
+            "THE WORK CONTINUES / PROJECT MILESTONES"
+          ],
+          [
+            "p",
+            "The M7f development report records 448 repository tests run, with the suite finishing OK and one test skipped. Its browser rehearsal passed 31 of 31 checks using simulated passkeys and disposable data. Those browser checks are separate from the earlier M7 real-device test plan."
+          ],
+          [
+            "p",
+            "The device exercise also exposed useful gaps: some refusals and cancelled prompts were not represented in the audit trail, and a recent sign-in could still count as authorization for a device change. M7f addressed those behaviors in development rather than treating a successful sign-in as the end of the work."
+          ],
+          [
+            "p",
+            "The hardening adds fresh, single-use authorization for device changes, strengthens server-side refusal of paper-trade requests, and improves security auditing, emergency locking and backup/recovery checks. These are implementation and test results, not an announcement of a production service."
+          ],
+          [
+            "p",
+            "The next step is an approved deployment rehearsal and focused device acceptance before any production activation. The engineering lesson is straightforward: use real-device testing to challenge assumptions, turn the findings into specific corrections, and keep test completion separate from permission to deploy."
+          ],
+          [
+            "p",
+            "The plan covered more than successful sign-in. It exercised enrollment, cancellation, device removal, expired codes, emergency locking and access refusal. Trading stayed disabled. The temporary server, access route and disposable server-side store were removed after testing. Test passkeys could remain on the devices; the removed test environment no longer recognizes them."
+          ],
+          [
+            "p",
+            "These items are not RSS announcements. Only separately reviewed, approved and published milestones enter the feeds. Email subscriptions remain Coming Soon."
+          ],
+          [
+            "p",
+            "Website publication comes first. Email requires separate approval and a tested provider. Corrections retain their history."
+          ],
+          [
+            "p",
+            "YOUR READER. YOUR CHOICE."
+          ]
+        ],
+        "links": [
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-fitness.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-mining.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-trading.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed.xml",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/formula-none-fitness.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/index.html#ask-magic",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/index.html#design-studio",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/magics-decision-desk.html",
+          "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#trading-m7-real-device-auth-hardening"
+        ]
+      }
+    },
+    "files": [
+      {
+        "file": ".nojekyll",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "assets/downloads/04-Big-Poppa-Showcase.pdf",
+        "bytes": 339178,
+        "sha256": "f1073f7465a3c0381fc37e29387ca0cfeedcee3fdfbe575c6452a5d383c28950"
+      },
+      {
+        "file": "assets/downloads/05-Magics-Decision-Desk-Showcase.pdf",
+        "bytes": 410077,
+        "sha256": "621ca4106e0be0c7ac4331cbe44d746d50e24512e2f0797f0e1cec2d48e44cfd"
+      },
+      {
+        "file": "assets/downloads/06-Formula-None-Fitness-Showcase.pdf",
+        "bytes": 435367,
+        "sha256": "f577cf6f61ef98b1e241896395431f5265cf18446169d845a7b132ada99c63bc"
+      },
+      {
+        "file": "assets/downloads/07-Big-Poppa-One-Page.pdf",
+        "bytes": 122838,
+        "sha256": "f54e5ff55e9831e748e52ab0697caf0f8d13178741e976f5b35cef51c2eb7970"
+      },
+      {
+        "file": "assets/downloads/08-Magics-Decision-Desk-One-Page.pdf",
+        "bytes": 195829,
+        "sha256": "27e9ba1057c03a7c4fdcec441f137c4ce62c5736b4d3594d8eed30347cd7a7c1"
+      },
+      {
+        "file": "assets/downloads/09-Formula-None-Fitness-One-Page.pdf",
+        "bytes": 121646,
+        "sha256": "c1e9ff47d5c736fb59d1087c90121088550bbe28d0cb4e47636e100e9cefd138"
+      },
+      {
+        "file": "assets/downloads/10-Three-Projects-One-Page.pdf",
+        "bytes": 132595,
+        "sha256": "13fd13e774dcdc14163d15aac7a2bd4b89b5e193b3799c8d9869a0a13b1d3e63"
+      },
+      {
+        "file": "assets/favicon.svg",
+        "bytes": 296,
+        "sha256": "67798a51ce1afd3664789c78950ad0411767a1242be0e18314b114b5273f7619"
+      },
+      {
+        "file": "assets/follow.css",
+        "bytes": 4893,
+        "sha256": "0dc984b4e583f0f2c81c664b2e2c6b2a8db6de0be7073175ee0660a834bf758a"
+      },
+      {
+        "file": "assets/follow.js",
+        "bytes": 1293,
+        "sha256": "3575287a7e6e08088a06543cb57fb2c5ca85adece462a8ca042f2c2a50305271"
+      },
+      {
+        "file": "assets/images/big-dashboard-thumb.webp",
+        "bytes": 62954,
+        "sha256": "9c41e5e047517162cb4329d150cdb621d010f3321c6e73a3af9b19a2c0d828f9"
+      },
+      {
+        "file": "assets/images/big-dashboard.webp",
+        "bytes": 760478,
+        "sha256": "ee3381e885f2a23d96c2c4b9023470a8276f131af8f41af5ee34d91a61faa334"
+      },
+      {
+        "file": "assets/images/big-history-thumb.webp",
+        "bytes": 49088,
+        "sha256": "fb13c706ff63c0a8fb72c4314490681262c1c021036a506a976231c8ee9ea0e7"
+      },
+      {
+        "file": "assets/images/big-history.webp",
+        "bytes": 748486,
+        "sha256": "0d7423bc88b20546869b7bb92cd097b861a5fafecdd44c073b397d35a6d469c5"
+      },
+      {
+        "file": "assets/images/big-phone-thumb.webp",
+        "bytes": 39086,
+        "sha256": "1292852486d3d5077d84e919df811ad5c30e1c4cbe4ea8c342c476dad3422c70"
+      },
+      {
+        "file": "assets/images/big-phone.webp",
+        "bytes": 200214,
+        "sha256": "729f3b0c7e933b81c351a1438ca33d46dc18e5420525133298f5e350450baa96"
+      },
+      {
+        "file": "assets/images/fitness-activity-thumb.webp",
+        "bytes": 29658,
+        "sha256": "6b62de078339d2ffe9dd7eab9f24d1a68157416222536148fb566bd1fa8a8268"
+      },
+      {
+        "file": "assets/images/fitness-activity.webp",
+        "bytes": 490188,
+        "sha256": "b8a171b43e3ccdd3cc6b9f5ef1a74429fc6f3cbac9ace5712876c3ad013322e2"
+      },
+      {
+        "file": "assets/images/fitness-dashboard-thumb.webp",
+        "bytes": 30798,
+        "sha256": "de4cdeb45885fbda8b27eef425234b8db6c8d4455909799c93ff3ddf447ecdfa"
+      },
+      {
+        "file": "assets/images/fitness-dashboard.webp",
+        "bytes": 578452,
+        "sha256": "0c8380f6ae2c8d3f003b28ddbbbe86226af98fe125f53617a9cfbc33c3759141"
+      },
+      {
+        "file": "assets/images/fitness-goals-thumb.webp",
+        "bytes": 28132,
+        "sha256": "dd23dcf19397b099a58b6f4266cad617eda61c15b8b119abb7c7c8051b0cc3ce"
+      },
+      {
+        "file": "assets/images/fitness-goals.webp",
+        "bytes": 447756,
+        "sha256": "982c7fc3752fa9b2e261579df486fdda42581aad5ab612eb09a29af05ad6467a"
+      },
+      {
+        "file": "assets/images/fitness-nutrition-thumb.webp",
+        "bytes": 29376,
+        "sha256": "e55343e69ea366892e30cdecd94459cdf0a9a6cd0598275d4b0e195278b26b0b"
+      },
+      {
+        "file": "assets/images/fitness-nutrition.webp",
+        "bytes": 498176,
+        "sha256": "a88c88333383de4867d40e5cf313331eb4c1c7ff64c307c9459e6213c074ca19"
+      },
+      {
+        "file": "assets/images/fitness-progress-thumb.webp",
+        "bytes": 29752,
+        "sha256": "90a72450fbbbb9ca71b710d5f069f12c5db0a09641f8fefe6c577eb2c9d8c991"
+      },
+      {
+        "file": "assets/images/fitness-progress.webp",
+        "bytes": 327258,
+        "sha256": "d7778cd3d988cad8d707c4c4e2409436415792644f4242fc961f31d09b627c5a"
+      },
+      {
+        "file": "assets/images/fitness-settings-thumb.webp",
+        "bytes": 31990,
+        "sha256": "9efe801265a04bd989465f16b73b93999f8013a794db5b3c38cdeb5e66e27609"
+      },
+      {
+        "file": "assets/images/fitness-settings.webp",
+        "bytes": 594232,
+        "sha256": "d6d7a6ed861b4474eee49a1dce85f3da35acac5020a259a7e3982e59bf5a2e66"
+      },
+      {
+        "file": "assets/images/fitness-workouts-thumb.webp",
+        "bytes": 28564,
+        "sha256": "c956d43480d80b8eb916b9420aca5f31d3e725cf9e918afa55907cddefa5c10a"
+      },
+      {
+        "file": "assets/images/fitness-workouts.webp",
+        "bytes": 459270,
+        "sha256": "0e6b175d144d7df05e36144cc35e4e895fcd74ab8136c1afa1a824a4e0adb8f3"
+      },
+      {
+        "file": "assets/images/m1-accessibility-top-thumb.webp",
+        "bytes": 27502,
+        "sha256": "01ed1a335521ed6ae714e5595ed05d99ce0fc2072fd50961f96fa0b9f2b572e5"
+      },
+      {
+        "file": "assets/images/m1-accessibility-top.webp",
+        "bytes": 609124,
+        "sha256": "bfeca6b14e747add461305515b90b54b1a9524fa2811ce4b712b5c4a2df9a3d2"
+      },
+      {
+        "file": "assets/images/m1-empty-top-thumb.webp",
+        "bytes": 29606,
+        "sha256": "8d9896b05bc3bc30ad4072debb5dd6e9eec3557a9d891132a60fb9a8e364dac1"
+      },
+      {
+        "file": "assets/images/m1-empty-top.webp",
+        "bytes": 726010,
+        "sha256": "f05472a5c6f6e5e94d58fb61d715d17cb0c750b8c16fdb99b120809cc5efffe1"
+      },
+      {
+        "file": "assets/images/m1-populated-top-thumb.webp",
+        "bytes": 35020,
+        "sha256": "8693f9ac6d7e0f06dc3de32da1905d0647755c0e9349191ab239e3c62494decd"
+      },
+      {
+        "file": "assets/images/m1-populated-top.webp",
+        "bytes": 738896,
+        "sha256": "bf89191cd1ac1a347f23aad8fb160f7e2d8d8c733cce6ce3e492c14fada7c392"
+      },
+      {
+        "file": "assets/images/m1-unavailable-lower-thumb.webp",
+        "bytes": 36526,
+        "sha256": "fbc995bb9fa7e640a3b4b0c577556fde6113d12a3442df322f94675cf2c294c6"
+      },
+      {
+        "file": "assets/images/m1-unavailable-lower.webp",
+        "bytes": 567808,
+        "sha256": "b1b89900c861f49e9e1eebfe47279371e012ed2a39dc2d01e6e21f7b1b8f8fd5"
+      },
+      {
+        "file": "assets/images/magic-desk-phone-thumb.webp",
+        "bytes": 43638,
+        "sha256": "68d1b0ba44666898bdee5f665327c7866f68cee5d963aa27fe4ed1c690b6fd03"
+      },
+      {
+        "file": "assets/images/magic-desk-phone.webp",
+        "bytes": 388952,
+        "sha256": "fa7dbbeae4fc676638365b09e7cb910deb9b95a70810e5e05c47d95db99dde0d"
+      },
+      {
+        "file": "assets/images/magic-desk-thumb.webp",
+        "bytes": 39730,
+        "sha256": "d32368f6259678a5df5601034dc9b181e14746a5c3dd38d0f71622d322140ed6"
+      },
+      {
+        "file": "assets/images/magic-desk.webp",
+        "bytes": 179180,
+        "sha256": "61d4844b9ced379c16464f6c21b2a817707c0d570a81b617efd87705e25c8fc2"
+      },
+      {
+        "file": "assets/images/magic-home-thumb.webp",
+        "bytes": 21462,
+        "sha256": "25898bc88a864135bfb865eb23976cf07557ead1bf69c9e18aebe0583ed4fae0"
+      },
+      {
+        "file": "assets/images/magic-home.webp",
+        "bytes": 86462,
+        "sha256": "ceaae14cfd87f680754f388986b7cb33466c4507ff77f9faf5971bdf377e06c8"
+      },
+      {
+        "file": "assets/images/magic-markets-thumb.webp",
+        "bytes": 44020,
+        "sha256": "f5d72d350a2c9f7ae08248cf28f83f3668824a3d0d883ddd9d7af4af44767309"
+      },
+      {
+        "file": "assets/images/magic-markets.webp",
+        "bytes": 196830,
+        "sha256": "96dc3232eac50cee1d905dae6d0f023e7921778a69f464f1eb004beffb803cd2"
+      },
+      {
+        "file": "assets/images/social-card.png",
+        "bytes": 198780,
+        "sha256": "cf81104e9ce9c653bf3fd86173d1f30cbbb9423802f9c9e8e39046838cd9ae43"
+      },
+      {
+        "file": "assets/site.css",
+        "bytes": 23501,
+        "sha256": "c06cc8b69ed7a10027fa1e16073bf5f8e70aa28efdfb0ba2b258e2f61540190b"
+      },
+      {
+        "file": "assets/site.js",
+        "bytes": 3134,
+        "sha256": "4296b6272ad26e67f669b3dea253ee5cfdf1e81937a80858933f7fbcf60cd8ac"
+      },
+      {
+        "file": "assets/suite.css",
+        "bytes": 5505,
+        "sha256": "f66ab9d0a87d11dbb378b804f43657cd0803e0974832217c2d391ecad0390da3"
+      },
+      {
+        "file": "assets/suite.js",
+        "bytes": 732,
+        "sha256": "c6268e7ba22b12e69bce5e54985be36238e121c53aa9dc54f67f742f6d9039c6"
+      },
+      {
+        "file": "behind-the-build.html",
+        "bytes": 11053,
+        "sha256": "aecf24c9fb713cf1f2a1065363cf00856af74871c534d8734c977e33a67de7f3"
+      },
+      {
+        "file": "big-poppa.html",
+        "bytes": 12967,
+        "sha256": "d095ffb959ea792a1dfeef4b4f0a7817705cb1c83b955bc675ef59c81f519957"
+      },
+      {
+        "file": "feed-fitness.xml",
+        "bytes": 562,
+        "sha256": "102f254413ac720e96409f889ed3fa97afd01c17d92989698b5c0bfd5da39897"
+      },
+      {
+        "file": "feed-mining.xml",
+        "bytes": 560,
+        "sha256": "a183bf747680bb81d28221438e1547cfbd9a68a130e56399fed0fd4f8cf1c409"
+      },
+      {
+        "file": "feed-trading.xml",
+        "bytes": 1458,
+        "sha256": "2e596b420e7eaaa01831113cd3a51a7057713a4328bf3f54d015c4aa05e30830"
+      },
+      {
+        "file": "feed.xml",
+        "bytes": 1440,
+        "sha256": "040675e5f3b01a5ff8ed880223d5db9e62d75d4ebb6dcc1e2d0fb11be2478194"
+      },
+      {
+        "file": "formula-none-fitness.html",
+        "bytes": 21601,
+        "sha256": "757786a4d218838757a8f38655e014c66f5bf145a830e568dda05d144dc71c45"
+      },
+      {
+        "file": "index.html",
+        "bytes": 23912,
+        "sha256": "61585a0cea44c21e5112ac3d0583daf6ddd8174d4892b80c56791e7825cc5809"
+      },
+      {
+        "file": "magics-decision-desk.html",
+        "bytes": 15703,
+        "sha256": "1c0e63fe6581f0389ce5d445b8e14f23364c3953cebf015a41667cb935bf323d"
+      },
+      {
+        "file": "robots.txt",
+        "bytes": 25,
+        "sha256": "1cbdbc6504be7abe1267d01d7f565bfcfe5851ba3f6a3754d1d61c8f8a2c6aa3"
+      },
+      {
+        "file": "updates.html",
+        "bytes": 16952,
+        "sha256": "e81c0005b1a2abba1def2b66b2241038cfc43f6f8aec77912289a887113c2044"
+      }
+    ],
+    "notes": null
+  },
+  "assets": {
+    "assets/downloads/04-Big-Poppa-Showcase.pdf": {
+      "physical": "f1073f7465a3c0381fc37e29387ca0cfeedcee3fdfbe575c6452a5d383c28950",
+      "semantic": "f1073f7465a3c0381fc37e29387ca0cfeedcee3fdfbe575c6452a5d383c28950"
+    },
+    "assets/downloads/05-Magics-Decision-Desk-Showcase.pdf": {
+      "physical": "621ca4106e0be0c7ac4331cbe44d746d50e24512e2f0797f0e1cec2d48e44cfd",
+      "semantic": "621ca4106e0be0c7ac4331cbe44d746d50e24512e2f0797f0e1cec2d48e44cfd"
+    },
+    "assets/downloads/06-Formula-None-Fitness-Showcase.pdf": {
+      "physical": "f577cf6f61ef98b1e241896395431f5265cf18446169d845a7b132ada99c63bc",
+      "semantic": "f577cf6f61ef98b1e241896395431f5265cf18446169d845a7b132ada99c63bc"
+    },
+    "assets/downloads/07-Big-Poppa-One-Page.pdf": {
+      "physical": "f54e5ff55e9831e748e52ab0697caf0f8d13178741e976f5b35cef51c2eb7970",
+      "semantic": "f54e5ff55e9831e748e52ab0697caf0f8d13178741e976f5b35cef51c2eb7970"
+    },
+    "assets/downloads/08-Magics-Decision-Desk-One-Page.pdf": {
+      "physical": "27e9ba1057c03a7c4fdcec441f137c4ce62c5736b4d3594d8eed30347cd7a7c1",
+      "semantic": "27e9ba1057c03a7c4fdcec441f137c4ce62c5736b4d3594d8eed30347cd7a7c1"
+    },
+    "assets/downloads/09-Formula-None-Fitness-One-Page.pdf": {
+      "physical": "c1e9ff47d5c736fb59d1087c90121088550bbe28d0cb4e47636e100e9cefd138",
+      "semantic": "c1e9ff47d5c736fb59d1087c90121088550bbe28d0cb4e47636e100e9cefd138"
+    },
+    "assets/downloads/10-Three-Projects-One-Page.pdf": {
+      "physical": "13fd13e774dcdc14163d15aac7a2bd4b89b5e193b3799c8d9869a0a13b1d3e63",
+      "semantic": "13fd13e774dcdc14163d15aac7a2bd4b89b5e193b3799c8d9869a0a13b1d3e63"
+    },
+    "assets/favicon.svg": {
+      "physical": "67798a51ce1afd3664789c78950ad0411767a1242be0e18314b114b5273f7619",
+      "semantic": "67798a51ce1afd3664789c78950ad0411767a1242be0e18314b114b5273f7619"
+    },
+    "assets/images/big-dashboard-thumb.webp": {
+      "physical": "9c41e5e047517162cb4329d150cdb621d010f3321c6e73a3af9b19a2c0d828f9",
+      "semantic": "9c41e5e047517162cb4329d150cdb621d010f3321c6e73a3af9b19a2c0d828f9"
+    },
+    "assets/images/big-dashboard.webp": {
+      "physical": "ee3381e885f2a23d96c2c4b9023470a8276f131af8f41af5ee34d91a61faa334",
+      "semantic": "ee3381e885f2a23d96c2c4b9023470a8276f131af8f41af5ee34d91a61faa334"
+    },
+    "assets/images/big-history-thumb.webp": {
+      "physical": "fb13c706ff63c0a8fb72c4314490681262c1c021036a506a976231c8ee9ea0e7",
+      "semantic": "fb13c706ff63c0a8fb72c4314490681262c1c021036a506a976231c8ee9ea0e7"
+    },
+    "assets/images/big-history.webp": {
+      "physical": "0d7423bc88b20546869b7bb92cd097b861a5fafecdd44c073b397d35a6d469c5",
+      "semantic": "0d7423bc88b20546869b7bb92cd097b861a5fafecdd44c073b397d35a6d469c5"
+    },
+    "assets/images/big-phone-thumb.webp": {
+      "physical": "1292852486d3d5077d84e919df811ad5c30e1c4cbe4ea8c342c476dad3422c70",
+      "semantic": "1292852486d3d5077d84e919df811ad5c30e1c4cbe4ea8c342c476dad3422c70"
+    },
+    "assets/images/big-phone.webp": {
+      "physical": "729f3b0c7e933b81c351a1438ca33d46dc18e5420525133298f5e350450baa96",
+      "semantic": "729f3b0c7e933b81c351a1438ca33d46dc18e5420525133298f5e350450baa96"
+    },
+    "assets/images/fitness-activity-thumb.webp": {
+      "physical": "6b62de078339d2ffe9dd7eab9f24d1a68157416222536148fb566bd1fa8a8268",
+      "semantic": "6b62de078339d2ffe9dd7eab9f24d1a68157416222536148fb566bd1fa8a8268"
+    },
+    "assets/images/fitness-activity.webp": {
+      "physical": "b8a171b43e3ccdd3cc6b9f5ef1a74429fc6f3cbac9ace5712876c3ad013322e2",
+      "semantic": "b8a171b43e3ccdd3cc6b9f5ef1a74429fc6f3cbac9ace5712876c3ad013322e2"
+    },
+    "assets/images/fitness-dashboard-thumb.webp": {
+      "physical": "de4cdeb45885fbda8b27eef425234b8db6c8d4455909799c93ff3ddf447ecdfa",
+      "semantic": "de4cdeb45885fbda8b27eef425234b8db6c8d4455909799c93ff3ddf447ecdfa"
+    },
+    "assets/images/fitness-dashboard.webp": {
+      "physical": "0c8380f6ae2c8d3f003b28ddbbbe86226af98fe125f53617a9cfbc33c3759141",
+      "semantic": "0c8380f6ae2c8d3f003b28ddbbbe86226af98fe125f53617a9cfbc33c3759141"
+    },
+    "assets/images/fitness-goals-thumb.webp": {
+      "physical": "dd23dcf19397b099a58b6f4266cad617eda61c15b8b119abb7c7c8051b0cc3ce",
+      "semantic": "dd23dcf19397b099a58b6f4266cad617eda61c15b8b119abb7c7c8051b0cc3ce"
+    },
+    "assets/images/fitness-goals.webp": {
+      "physical": "982c7fc3752fa9b2e261579df486fdda42581aad5ab612eb09a29af05ad6467a",
+      "semantic": "982c7fc3752fa9b2e261579df486fdda42581aad5ab612eb09a29af05ad6467a"
+    },
+    "assets/images/fitness-nutrition-thumb.webp": {
+      "physical": "e55343e69ea366892e30cdecd94459cdf0a9a6cd0598275d4b0e195278b26b0b",
+      "semantic": "e55343e69ea366892e30cdecd94459cdf0a9a6cd0598275d4b0e195278b26b0b"
+    },
+    "assets/images/fitness-nutrition.webp": {
+      "physical": "a88c88333383de4867d40e5cf313331eb4c1c7ff64c307c9459e6213c074ca19",
+      "semantic": "a88c88333383de4867d40e5cf313331eb4c1c7ff64c307c9459e6213c074ca19"
+    },
+    "assets/images/fitness-progress-thumb.webp": {
+      "physical": "90a72450fbbbb9ca71b710d5f069f12c5db0a09641f8fefe6c577eb2c9d8c991",
+      "semantic": "90a72450fbbbb9ca71b710d5f069f12c5db0a09641f8fefe6c577eb2c9d8c991"
+    },
+    "assets/images/fitness-progress.webp": {
+      "physical": "d7778cd3d988cad8d707c4c4e2409436415792644f4242fc961f31d09b627c5a",
+      "semantic": "d7778cd3d988cad8d707c4c4e2409436415792644f4242fc961f31d09b627c5a"
+    },
+    "assets/images/fitness-settings-thumb.webp": {
+      "physical": "9efe801265a04bd989465f16b73b93999f8013a794db5b3c38cdeb5e66e27609",
+      "semantic": "9efe801265a04bd989465f16b73b93999f8013a794db5b3c38cdeb5e66e27609"
+    },
+    "assets/images/fitness-settings.webp": {
+      "physical": "d6d7a6ed861b4474eee49a1dce85f3da35acac5020a259a7e3982e59bf5a2e66",
+      "semantic": "d6d7a6ed861b4474eee49a1dce85f3da35acac5020a259a7e3982e59bf5a2e66"
+    },
+    "assets/images/fitness-workouts-thumb.webp": {
+      "physical": "c956d43480d80b8eb916b9420aca5f31d3e725cf9e918afa55907cddefa5c10a",
+      "semantic": "c956d43480d80b8eb916b9420aca5f31d3e725cf9e918afa55907cddefa5c10a"
+    },
+    "assets/images/fitness-workouts.webp": {
+      "physical": "0e6b175d144d7df05e36144cc35e4e895fcd74ab8136c1afa1a824a4e0adb8f3",
+      "semantic": "0e6b175d144d7df05e36144cc35e4e895fcd74ab8136c1afa1a824a4e0adb8f3"
+    },
+    "assets/images/m1-accessibility-top-thumb.webp": {
+      "physical": "01ed1a335521ed6ae714e5595ed05d99ce0fc2072fd50961f96fa0b9f2b572e5",
+      "semantic": "01ed1a335521ed6ae714e5595ed05d99ce0fc2072fd50961f96fa0b9f2b572e5"
+    },
+    "assets/images/m1-accessibility-top.webp": {
+      "physical": "bfeca6b14e747add461305515b90b54b1a9524fa2811ce4b712b5c4a2df9a3d2",
+      "semantic": "bfeca6b14e747add461305515b90b54b1a9524fa2811ce4b712b5c4a2df9a3d2"
+    },
+    "assets/images/m1-empty-top-thumb.webp": {
+      "physical": "8d9896b05bc3bc30ad4072debb5dd6e9eec3557a9d891132a60fb9a8e364dac1",
+      "semantic": "8d9896b05bc3bc30ad4072debb5dd6e9eec3557a9d891132a60fb9a8e364dac1"
+    },
+    "assets/images/m1-empty-top.webp": {
+      "physical": "f05472a5c6f6e5e94d58fb61d715d17cb0c750b8c16fdb99b120809cc5efffe1",
+      "semantic": "f05472a5c6f6e5e94d58fb61d715d17cb0c750b8c16fdb99b120809cc5efffe1"
+    },
+    "assets/images/m1-populated-top-thumb.webp": {
+      "physical": "8693f9ac6d7e0f06dc3de32da1905d0647755c0e9349191ab239e3c62494decd",
+      "semantic": "8693f9ac6d7e0f06dc3de32da1905d0647755c0e9349191ab239e3c62494decd"
+    },
+    "assets/images/m1-populated-top.webp": {
+      "physical": "bf89191cd1ac1a347f23aad8fb160f7e2d8d8c733cce6ce3e492c14fada7c392",
+      "semantic": "bf89191cd1ac1a347f23aad8fb160f7e2d8d8c733cce6ce3e492c14fada7c392"
+    },
+    "assets/images/m1-unavailable-lower-thumb.webp": {
+      "physical": "fbc995bb9fa7e640a3b4b0c577556fde6113d12a3442df322f94675cf2c294c6",
+      "semantic": "fbc995bb9fa7e640a3b4b0c577556fde6113d12a3442df322f94675cf2c294c6"
+    },
+    "assets/images/m1-unavailable-lower.webp": {
+      "physical": "b1b89900c861f49e9e1eebfe47279371e012ed2a39dc2d01e6e21f7b1b8f8fd5",
+      "semantic": "b1b89900c861f49e9e1eebfe47279371e012ed2a39dc2d01e6e21f7b1b8f8fd5"
+    },
+    "assets/images/magic-desk-phone-thumb.webp": {
+      "physical": "68d1b0ba44666898bdee5f665327c7866f68cee5d963aa27fe4ed1c690b6fd03",
+      "semantic": "68d1b0ba44666898bdee5f665327c7866f68cee5d963aa27fe4ed1c690b6fd03"
+    },
+    "assets/images/magic-desk-phone.webp": {
+      "physical": "fa7dbbeae4fc676638365b09e7cb910deb9b95a70810e5e05c47d95db99dde0d",
+      "semantic": "fa7dbbeae4fc676638365b09e7cb910deb9b95a70810e5e05c47d95db99dde0d"
+    },
+    "assets/images/magic-desk-thumb.webp": {
+      "physical": "d32368f6259678a5df5601034dc9b181e14746a5c3dd38d0f71622d322140ed6",
+      "semantic": "d32368f6259678a5df5601034dc9b181e14746a5c3dd38d0f71622d322140ed6"
+    },
+    "assets/images/magic-desk.webp": {
+      "physical": "61d4844b9ced379c16464f6c21b2a817707c0d570a81b617efd87705e25c8fc2",
+      "semantic": "61d4844b9ced379c16464f6c21b2a817707c0d570a81b617efd87705e25c8fc2"
+    },
+    "assets/images/magic-home-thumb.webp": {
+      "physical": "25898bc88a864135bfb865eb23976cf07557ead1bf69c9e18aebe0583ed4fae0",
+      "semantic": "25898bc88a864135bfb865eb23976cf07557ead1bf69c9e18aebe0583ed4fae0"
+    },
+    "assets/images/magic-home.webp": {
+      "physical": "ceaae14cfd87f680754f388986b7cb33466c4507ff77f9faf5971bdf377e06c8",
+      "semantic": "ceaae14cfd87f680754f388986b7cb33466c4507ff77f9faf5971bdf377e06c8"
+    },
+    "assets/images/magic-markets-thumb.webp": {
+      "physical": "f5d72d350a2c9f7ae08248cf28f83f3668824a3d0d883ddd9d7af4af44767309",
+      "semantic": "f5d72d350a2c9f7ae08248cf28f83f3668824a3d0d883ddd9d7af4af44767309"
+    },
+    "assets/images/magic-markets.webp": {
+      "physical": "96dc3232eac50cee1d905dae6d0f023e7921778a69f464f1eb004beffb803cd2",
+      "semantic": "96dc3232eac50cee1d905dae6d0f023e7921778a69f464f1eb004beffb803cd2"
+    },
+    "assets/images/social-card.png": {
+      "physical": "cf81104e9ce9c653bf3fd86173d1f30cbbb9423802f9c9e8e39046838cd9ae43",
+      "semantic": "cf81104e9ce9c653bf3fd86173d1f30cbbb9423802f9c9e8e39046838cd9ae43"
+    }
+  },
+  "history": {
+    "1cf0d2713cb20ad00cfea11baa45cdae7bc4c01879a695caf1a1b93669c9ec6f": {
+      "status": "baseline_only",
+      "sha": "416efa5da9db293ccef60110702501bc931200d4"
+    }
+  },
+  "outbox": null,
+  "last_evaluated_sha": "416efa5da9db293ccef60110702501bc931200d4",
+  "evaluated_inventory": "480c5e2960f5caad4e3ae0de528bccbec33b9569adb7dfa8adc1144655dc14b3"
+}
