@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "MrMagic Suite verified Kit signup link",
+  "edition": "Owner-approved MrMagic Fitness Beta policy only",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "Owner authorized publication after completed subscription testing",
-  "site_inventory_sha256": "480c5e2960f5caad4e3ae0de528bccbec33b9569adb7dfa8adc1144655dc14b3",
+  "destination_status": "Owner authorization 1220363292634827; unchanged 63-file website plus exact approved privacy page",
+  "site_inventory_sha256": "92f5d56ed74c6f24d9e9df9c03480a1df53dfef0dc8881f6de4b5310f9d15b84",
   "files": [
     {
       "file": ".nojekyll",
@@ -309,6 +309,11 @@
       "file": "magics-decision-desk.html",
       "bytes": 15703,
       "sha256": "1c0e63fe6581f0389ce5d445b8e14f23364c3953cebf015a41667cb935bf323d"
+    },
+    {
+      "file": "privacy/mrmagic-fitness-beta.html",
+      "bytes": 5401,
+      "sha256": "e1484aa8f1979340161d2462d97905b3b06cb6df5adabbe21a65a880e769366c"
     },
     {
       "file": "robots.txt",
