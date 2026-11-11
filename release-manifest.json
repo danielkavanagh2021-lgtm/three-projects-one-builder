@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "Concept C portfolio redesign, all nine pages; verified MrMagic Fitness TestFlight milestone (10 Nov 2026)",
+  "edition": "Concept C portfolio; Decision Desk showcase of actual 10 Nov 2026 application screenshots",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "Owner publication authorization in chat 11 Nov 2026 (final website completion directive); source private candidate c553c943f663a1e07717b8a458a52a26bdc88413; previous release 0bdae08 digest 92f5d56ed74c6f24d9e9df9c03480a1df53dfef0dc8881f6de4b5310f9d15b84",
-  "site_inventory_sha256": "730293f82e7635da6f3ddc0e8d21e9e0635b42494fce9fbd0bb0be765a992b19",
+  "destination_status": "Owner authorization in chat 11 Nov 2026 (Decision Desk visual showcase post-launch fix); source private candidate 278f9d7 on private/decision-desk-showcase-20261111; previous release c4ec55d digest 730293f82e7635da6f3ddc0e8d21e9e0635b42494fce9fbd0bb0be765a992b19",
+  "site_inventory_sha256": "aeb869dc5139b1df01f827572bfa25dbcc21d19b30a181f173f3214cc7629a02",
   "files": [
     {
       "file": ".nojekyll",
@@ -17,8 +17,8 @@
     },
     {
       "file": "assets/ask-site.js",
-      "bytes": 15779,
-      "sha256": "c8b5b9be242fecc643d9fc8a87f15b2b6c430dfd1681175641e1b1a3481c01a5"
+      "bytes": 15931,
+      "sha256": "a14928b50f7f62119411943a17c566a6a96e643225085a6fd97a3a8347d04226"
     },
     {
       "file": "assets/concept-c.css",
@@ -119,6 +119,76 @@
       "file": "assets/images/daniel-portrait.webp",
       "bytes": 191136,
       "sha256": "63178a9ae71047f16a497968fa67dd6f5e8ba6c545256b50af96ae703e83ef9a"
+    },
+    {
+      "file": "assets/images/dd-arena-desktop-thumb.webp",
+      "bytes": 88782,
+      "sha256": "242dd5aa2bdcf15bb753a3dd42f5096ed3055627f7ba5415b303ba9ca5c8723f"
+    },
+    {
+      "file": "assets/images/dd-arena-desktop.webp",
+      "bytes": 184410,
+      "sha256": "624e7d3cb62b29c60697fb164fcf91fbf998b2669cb1d398655b60c80370989b"
+    },
+    {
+      "file": "assets/images/dd-arena-ipad-thumb.webp",
+      "bytes": 63148,
+      "sha256": "625566fb146cbe8a0c2b49d9552da516dfe76bdbcc58049c416201792dca4abd"
+    },
+    {
+      "file": "assets/images/dd-arena-ipad.webp",
+      "bytes": 244310,
+      "sha256": "9084f2deef417cc8b4fb59f2c791971aa5f420fed765813b1ae2cdce8d4552d0"
+    },
+    {
+      "file": "assets/images/dd-arena-iphone-thumb.webp",
+      "bytes": 48092,
+      "sha256": "1b40b5a91a28669d923246001a74424a4d1e8bf82db08efa12ce6bbc3e0124c4"
+    },
+    {
+      "file": "assets/images/dd-arena-iphone.webp",
+      "bytes": 118092,
+      "sha256": "e47303dc5109d8cf97bf692bc9650e80f4995aaeefa5ce9dafe7b64ea89c2bd4"
+    },
+    {
+      "file": "assets/images/dd-arena-ultrawide-thumb.webp",
+      "bytes": 44838,
+      "sha256": "9e7114c7d3e894e3f1a09626af9051e78ba7bba0886c3b3e02c307f1efcd4fec"
+    },
+    {
+      "file": "assets/images/dd-arena-ultrawide.webp",
+      "bytes": 277948,
+      "sha256": "349e3e3562f07ef26cdd42b15c8d16e3edf9378c5e0c958cd30f7bf51089151c"
+    },
+    {
+      "file": "assets/images/dd-markets-desktop-thumb.webp",
+      "bytes": 51944,
+      "sha256": "e80c682ce609948ebb89172869859ed91447efdfeb87e5625c47d1e665b0e9f1"
+    },
+    {
+      "file": "assets/images/dd-markets-desktop.webp",
+      "bytes": 117440,
+      "sha256": "ae5d68db583d2a2d95f01fbc2fc3866ebff9b927da3bade14b41bb354d036a83"
+    },
+    {
+      "file": "assets/images/dd-pulse-ipad-thumb.webp",
+      "bytes": 43702,
+      "sha256": "fa7606591b3a281ecda3e09b87941fb5d3c48a64627e04e3f6dc7fe398792208"
+    },
+    {
+      "file": "assets/images/dd-pulse-ipad.webp",
+      "bytes": 160590,
+      "sha256": "111971c06e13c19fbcc9a8253a5e54cdc94b6d52b916eebbe2845bca54ff0888"
+    },
+    {
+      "file": "assets/images/dd-receipt-iphone-thumb.webp",
+      "bytes": 47968,
+      "sha256": "a8ad7202008721228b3ce59350997565cbfd1d33ef676a2b1efbe65a4b0f1316"
+    },
+    {
+      "file": "assets/images/dd-receipt-iphone.webp",
+      "bytes": 121210,
+      "sha256": "6adb9bf1b27e2606b17bbb685bd81d3a6aabaed731fe58955347099681e98140"
     },
     {
       "file": "assets/images/engineering-social.png",
@@ -497,8 +567,8 @@
     },
     {
       "file": "assets/pages/magics-decision-desk.css",
-      "bytes": 1026,
-      "sha256": "8037a1ef8460aed37f7d5ba8b0bb79543c95567db2bbaea0fe4b9b2c2f564f81"
+      "bytes": 2043,
+      "sha256": "d80f2278713f850d59e04d6b2c33978cd29103192306c5544b9d56fc5d3b92a0"
     },
     {
       "file": "assets/pages/magics-fortune.css",
@@ -592,8 +662,8 @@
     },
     {
       "file": "magics-decision-desk.html",
-      "bytes": 22864,
-      "sha256": "777c1f2178647d9dce5e3642e28996ea7740b0ee6c563c824d656bc160a69157"
+      "bytes": 29806,
+      "sha256": "764286bc30b8b38656843b7d36e432de31ecc2dfd721eb54f4492e0d20e17c2f"
     },
     {
       "file": "magics-fortune.html",

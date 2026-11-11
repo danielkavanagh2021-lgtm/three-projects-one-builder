@@ -7,16 +7,31 @@
 .concept-c .ask-band{margin-top:24px}
 .concept-c .arena-board{margin-top:0}
 .cc-steps>article>span{display:block;color:var(--cyan);font-size:12px;margin-bottom:2px}
+/* Actual-application showcase (10 Nov development builds) */
+.dd-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.12em;padding:2px 7px;border-radius:999px;margin-right:6px;vertical-align:1px}
+.dd-tag.is-real{color:#062014;background:#4ee39a}
+.dd-paper-only{margin:12px 0 0}.dd-paper-only .pill-status{margin:0}
+.dd-sub{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:28px 0 12px}
+.cc-gallery.dd-wide{--cols:2;align-items:start}.cc-gallery.dd-wide>figure:first-child{grid-column:1/-1}
+.cc-gallery.dd-tall{--cols:3;align-items:start}
+.cc-gallery.dd-tall img{aspect-ratio:10/17;object-fit:cover;object-position:top}
+.cc-gallery figcaption p{margin:0}
+.cc-case-grid .dd-hero img{max-height:none}
 @media (max-width:1099px){
  .cc-gallery.cols-4{--cols:2}
+ .cc-gallery.dd-wide{--cols:2}.cc-gallery.dd-tall{--cols:3}
  .cc-facts>div+div{padding-top:0;border-top:0}
  .cc-case-grid .cc-figure img{max-height:520px}
+ .cc-case-grid .dd-hero img{max-height:none}
 }
 @media (max-width:699px){
  .cc-gallery.cols-4{--cols:4}
  .cc-gallery.cols-4>figure{flex-basis:64%}
+ .cc-gallery.dd-wide>figure{flex-basis:86%}.cc-gallery.dd-tall>figure{flex-basis:58%}
  .cc-case-grid .cc-figure img{max-height:380px}
+ .cc-case-grid .dd-hero img{max-height:none}
  .cc-case-grid>.cc-figure{order:-1}
  .concept-c .cc-facts .pill{font-size:12px;padding:4px 10px}
  .cc-facts>div:first-child,.cc-facts>div:nth-child(2){grid-column:1/-1}
+ .dd-sub{margin-top:20px}
 }
