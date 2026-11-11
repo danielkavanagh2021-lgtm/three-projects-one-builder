@@ -1,0 +1,22 @@
+/* Behind the Build: page-specific layout on top of concept-c.css */
+.concept-c .btb-intro{padding-block:28px 8px}
+.btb-intro .cc-duo{align-items:start}
+.btb-intro .intro{margin:0 0 14px;max-width:none}
+.btb-intro .engineering-links{margin:0}
+.btb-intro .tags{margin-top:16px}
+.cc-cards.cols-4{--cols:4}
+.cc-cards.cols-4 .cc-card h3{font-size:17px}
+.btb-habits{display:grid;gap:12px}
+.btb-habits article{padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.btb-habits h3{margin:0 0 4px;font-size:16px}
+.btb-habits p{margin:0;font-size:14px;color:var(--muted)}
+.btb-defs .two-col{gap:24px}
+@media (max-width:1099px){
+ .cc-cards.cols-4{--cols:2}
+ .btb-habits{grid-template-columns:1fr 1fr}
+}
+@media (max-width:699px){
+ .cc-cards.cols-4{--cols:1}
+ .btb-habits{grid-template-columns:1fr}
+ .concept-c .btb-intro{padding-block:20px 4px}
+}

@@ -1,0 +1,31 @@
+/* Magic's Mining Command page layout (Concept C). Loaded after concept-c.css. */
+.concept-c .cc-facts .pills{display:flex;flex-wrap:wrap;gap:6px}
+.concept-c .cc-facts .pills .pill{margin:0}
+.concept-c .cc-facts .cc-fact-note dd,.concept-c .cc-facts .status-note{margin:0;padding:0;border:0;background:none;box-shadow:none;border-radius:0;color:var(--muted);line-height:1.5;font-size:14px}
+.concept-c .cc-band .suite-context{font-size:14px;padding:10px 14px;text-align:left}
+.concept-c .cc-facts .cc-fact-note strong{color:var(--ink);letter-spacing:.06em}
+.concept-c .cc-case-grid{grid-template-columns:320px minmax(0,1fr)}
+.concept-c .cc-case .cc-figure>a{max-width:760px}
+.concept-c .cc-case .cc-figure figcaption{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.concept-c .cc-case .cc-figure figcaption span:last-child{color:var(--cyan)}
+.concept-c .cc-case-after{padding-top:8px}
+.concept-c .cc-gallery.cols-3{align-items:start}
+.concept-c .cc-gallery .zoom-label{display:block;margin-top:6px;font-size:11px;letter-spacing:.08em;color:var(--cyan)}
+.concept-c .cc-cards.cols-2{--cols:2}
+.concept-c .cc-cards.cols-2 h3{margin-bottom:8px}
+.concept-c .cc-quote{font-size:20px;font-weight:600;line-height:1.3;margin:0 0 18px;padding-left:16px;border-left:3px solid var(--cyan);color:var(--ink)}
+.concept-c .cc-steps>article .cc-step-no{display:block;font-size:12px;color:var(--cyan);letter-spacing:.08em;margin-bottom:4px}
+.concept-c .cc-status-board{margin-bottom:14px}
+.concept-c .cc-pad-top{padding-top:0}
+@media (max-width:1099px){
+ .concept-c .cc-case-grid{grid-template-columns:1fr}
+ .concept-c .cc-case .cc-figure>a{max-width:none}
+}
+@media (max-width:699px){
+ .concept-c .cc-case-grid>.cc-figure{order:-1}
+ .concept-c .cc-case-grid{gap:14px}
+ .concept-c .cc-facts{grid-template-columns:1fr}
+ .concept-c .cc-cards.cols-2{--cols:1}
+ .concept-c .cc-quote{font-size:17px}
+ .concept-c .cc-gallery.cols-3>*{flex-basis:78%}
+}

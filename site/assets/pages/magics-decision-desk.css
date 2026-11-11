@@ -1,0 +1,22 @@
+/* Magic's Decision Desk page layout (Concept C) */
+.concept-c .cc-facts .title-meta{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 0}
+.concept-c .cc-facts>div+div{padding-top:14px;border-top:1px solid var(--line)}
+.cc-gallery.cols-4{--cols:4;align-items:start}
+.cc-case-grid>.cc-figure{max-width:100%}
+.cc-case-grid .cc-figure img{max-height:640px;object-fit:cover;object-position:top}
+.concept-c .ask-band{margin-top:24px}
+.concept-c .arena-board{margin-top:0}
+.cc-steps>article>span{display:block;color:var(--cyan);font-size:12px;margin-bottom:2px}
+@media (max-width:1099px){
+ .cc-gallery.cols-4{--cols:2}
+ .cc-facts>div+div{padding-top:0;border-top:0}
+ .cc-case-grid .cc-figure img{max-height:520px}
+}
+@media (max-width:699px){
+ .cc-gallery.cols-4{--cols:4}
+ .cc-gallery.cols-4>figure{flex-basis:64%}
+ .cc-case-grid .cc-figure img{max-height:380px}
+ .cc-case-grid>.cc-figure{order:-1}
+ .concept-c .cc-facts .pill{font-size:12px;padding:4px 10px}
+ .cc-facts>div:first-child,.cc-facts>div:nth-child(2){grid-column:1/-1}
+}

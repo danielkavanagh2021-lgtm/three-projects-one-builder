@@ -1,0 +1,49 @@
+/* Shared spacing system (Claude-led spacing refinement, 11 Nov 2026).
+   Loaded last on every page. One set of responsive tokens replaces the stacked
+   page-specific margins that left 70-110px gaps inside headers. No colours,
+   fonts, copy or images change here. Print styles are left untouched. */
+:root{
+ --space-tight:8px;
+ --space-heading:clamp(12px,1.1vw,16px);   /* eyebrow/heading/description */
+ --space-status:clamp(14px,1.4vw,20px);    /* description to status */
+ --space-group:clamp(16px,1.7vw,24px);     /* status to badges, badges to actions */
+ --space-media:clamp(24px,2.2vw,32px);     /* badges to first screenshot */
+ --space-block:clamp(24px,2.8vw,40px);     /* section heading to its content */
+ --space-hero-top:clamp(28px,3.3vw,48px);  /* header bar to first heading */
+ --space-section:clamp(36px,5vw,64px);     /* between major sections: 36-48 phone, 64 desktop */
+}
+@media screen{
+ /* Sections and headings */
+ .section{padding-block:var(--space-section)}
+ .section.features-band{padding-top:var(--space-group)}
+ .section-heading,.feature-head{margin-bottom:var(--space-block)}
+ .eyebrow{margin-bottom:var(--space-heading)}
+
+ /* Page headers: project, work and product */
+ .project-hero,.work-hero{padding:var(--space-hero-top) 0 var(--space-block)}
+ .product-hero{padding:var(--space-hero-top) 0 var(--space-block)}
+ .product-hero.flush{padding:0;margin-bottom:var(--space-group)}
+ .product-hero h1{margin:0}
+ .product-hero .product-name{margin:0 0 var(--space-tight)}
+ .project-hero .lead,.work-hero .lead,.product-hero .lead{margin-top:var(--space-heading);margin-bottom:0}
+ .product-hero .lead+.pill-status{margin-top:var(--space-status)}
+ .product-hero .pill-status{margin-bottom:0}
+ .work-hero .intro,.work-hero .status-note{margin-top:var(--space-status)}
+ .product-hero .pill-status+.actions,.actions{margin-top:var(--space-group)}
+ .project-hero .title-meta,.project-hero .tags,.work-hero .tags,.engineering-links{margin-top:var(--space-group)}
+ .product-hero.flush+.tags,.product-hero.flush+.title-meta{margin-top:0}
+ .product-hero-grid{gap:clamp(24px,3.4vw,48px)}
+
+ /* First screenshot sits close to the header it belongs to */
+ .hero-board{margin-top:var(--space-media)}
+ .hero-board figcaption{padding-top:14px}
+ .project-hero .wide-evidence{margin-top:var(--space-media)}
+ .snapshot-date{margin-top:12px}
+ .status-note,.scope-note{margin-top:var(--space-group)}
+ .dev-status{margin-top:var(--space-media)}
+
+ /* Homepage opening: same proportions, less dead air above and below */
+ .lead-hero{padding:var(--space-hero-top) 0 var(--space-section)}
+ .lead-intro{margin-bottom:var(--space-block)}
+ .lead-intro .lead{margin-top:var(--space-heading)}
+}

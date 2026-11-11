@@ -1,0 +1,24 @@
+/* AbraCADabra page layout (Concept C) */
+.cc-case-grid{grid-template-columns:320px minmax(0,1fr)}
+.cc-facts .cc-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cc-facts .status-note{margin:0;font-size:13px;color:var(--muted)}
+.cc-facts .pill-status{white-space:normal;line-height:1.4}
+.cc-figure .snapshot-date{margin:8px 0 0;font-size:12px;color:var(--muted)}
+.cc-steps article span{display:block;font-size:11px;color:var(--cyan);letter-spacing:.1em;margin-bottom:4px}
+.cc-steps article h3{font-size:15px}
+.cc-card>span{display:block;font-size:12px;color:var(--cyan);letter-spacing:.08em;margin-bottom:6px}
+.cc-cards.cols-4{--cols:4}
+.cc-duo-second{margin-top:44px}
+.cc-duo-text h2{margin:6px 0 0}
+.cc-duo-media .fineprint{display:block}
+@media (max-width:1099px){
+ .cc-case-grid{grid-template-columns:1fr}
+ .cc-facts .cc-fact-wide{grid-column:span 2}
+ .cc-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .cc-cards.cols-4{--cols:2}
+ .cc-duo-second{margin-top:32px}
+}
+@media (max-width:699px){
+ .cc-cards.cols-4{--cols:1}
+ .cc-duo-second{margin-top:28px}
+}

@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /three-projects-one-builder/fitness-beta-thanks.html
+
+Sitemap: https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/sitemap.xml

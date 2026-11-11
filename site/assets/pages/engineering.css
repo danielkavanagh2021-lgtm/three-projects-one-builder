@@ -1,0 +1,26 @@
+/* Engineering page - Concept C layout */
+.cc-tags{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+.cc-tags span{font-size:12px;padding:6px 10px}
+.cc-twin{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:36px;align-items:start}
+.cc-twin-media,.cc-twin-text{min-width:0}
+.cc-twin-text .feature-head{display:block;margin:0 0 14px}
+.cc-twin-text .feature-head .lead{margin:10px 0 0;font-size:15px}
+.cc-twin .cc-twin-text .video-credit-grid{display:grid;grid-template-columns:minmax(0,1fr)!important;gap:10px;font-size:14px}
+.cc-twin-text .video-credit-grid p{margin:0}
+.cc-twin-text .scope-note{font-size:13px;margin-top:12px}
+.cc-twin-media .video-privacy,.cc-twin-media .video-meta{margin-top:10px}
+.cc-sub{display:block;margin-top:6px;font-size:12px}
+.cc-timeline .cc-roles-list{list-style:none;margin:6px 0 0;padding:0;font-size:14px}
+.cc-timeline>li:nth-child(odd) .cc-roles-list{text-align:right}
+.cc-timeline .cc-roles-list li{margin:2px 0}
+.cc-cards.cc-two{--cols:2}
+.cc-cards.cc-two .cc-card h2{font-size:22px;margin:0 0 8px}
+.cc-cards.cc-two .cc-card .lead{font-size:15px;margin:0 0 10px}
+@media (max-width:1099px){
+ .cc-twin{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px}
+ .cc-timeline>li>p{grid-row:1/span 6}
+}
+@media (max-width:699px){
+ .cc-twin{grid-template-columns:1fr;gap:18px}
+ .cc-cards.cc-two{--cols:1}
+}

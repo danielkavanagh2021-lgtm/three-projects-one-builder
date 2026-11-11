@@ -1,0 +1,29 @@
+/* Magic's Fortune page layout (Concept C). Loaded after concept-c.css. */
+.mf-features{padding-block:8px 8px!important}
+.mf-features .cc-cards{--cols:3}
+.mf-grove .cc-duo{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);align-items:start;gap:48px}
+.mf-grove .cc-duo-text h2{margin:0 0 10px}
+.mf-grove .cc-duo-text .eyebrow{margin-bottom:10px}
+.mf-grove .cc-duo-text .lead{font-size:17px;margin:0 0 14px}
+.mf-grove .clean-list{margin:0 0 16px}
+.mf-grove .ask-band{margin-top:18px}
+.mf-grove .cc-duo-media{display:flex;justify-content:center}
+.mf-grove .cc-figure{max-width:320px;width:100%}
+.mf-grove .cc-figure figcaption{font-size:12px}
+.mf-captures .cc-figure{max-width:980px}
+.mf-captures .cc-gallery{--cols:1;max-width:300px;margin-top:16px}
+.mf-status .cc-status-board{grid-template-columns:repeat(2,minmax(0,1fr));margin:14px 0 18px}
+.mf-status .cc-status-item p{font-size:15px}
+.mf-status h3{margin:18px 0 4px}
+@media (max-width:1099px){
+ .mf-features .cc-cards{--cols:3}
+ .mf-grove .cc-duo{grid-template-columns:minmax(0,1fr) 260px;gap:28px}
+}
+@media (max-width:699px){
+ .mf-features .cc-cards{--cols:1}
+ .mf-grove .cc-duo{grid-template-columns:1fr}
+ .mf-grove .cc-duo>.cc-duo-media{order:0}
+ .mf-grove .cc-figure{max-width:260px;margin-inline:auto}
+ .mf-captures .cc-gallery{display:block;max-width:240px}
+ .mf-status .cc-status-board{grid-template-columns:1fr}
+}

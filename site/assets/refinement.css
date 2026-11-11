@@ -1,0 +1,62 @@
+/* Small additive presentation layer: existing palette, components and routes preserved. */
+.technical-detail{border:1px solid var(--line);border-radius:16px;padding:20px 24px;background:var(--surface)}
+.technical-detail>summary{cursor:pointer;min-height:44px;display:list-item;font-size:19px;font-weight:650;color:var(--ink);padding:9px 0}
+.technical-detail[open]>summary{margin-bottom:26px}.section:has(>.wrap>.technical-detail){padding-top:18px;padding-bottom:18px}
+.technical-detail .section-heading{margin-top:20px}.technical-detail h2{font-size:30px}
+.suite-journey{display:grid;grid-template-columns:1fr 1fr 1.4fr 1fr 1fr;align-items:stretch;gap:12px;margin:30px 0}
+.suite-journey>*{display:grid;place-content:center;text-align:center;border:1px solid #3a526c;border-radius:14px;background:#101a30;padding:18px;font-size:16px}
+.suite-journey strong{border-color:var(--cyan);color:var(--cyan)}.suite-journey small{display:block;font-size:11px;line-height:1.7;margin-top:8px;color:#d2dcf0}
+.ask-row{display:flex;gap:12px;margin:10px 0 16px}#ask-form{margin-top:25px}#ask-form label{display:block;font-weight:650}
+#ask-query{flex:1;min-width:0;border:1px solid #6f819d;background:#080e1d;color:#f3f6ff;padding:14px;border-radius:10px;font:inherit;font-size:16px}
+.ask-row button,.ask-examples button{min-height:44px;cursor:pointer}.ask-row button{border:0;color:#07111b;background:#00e0f8;padding:12px 20px;border-radius:10px;font:inherit;font-weight:650}
+.ask-examples{display:flex;flex-wrap:wrap;gap:10px}.ask-examples button{border:1px solid #647793;background:#101a30;color:#eaf0ff;border-radius:10px;padding:9px 14px;font:inherit}
+.ask-answer{margin-top:22px;padding:24px;border:1px solid #526884;border-radius:14px;background:#0a1121;min-height:100px}.ask-answer a{color:var(--cyan);display:inline-flex;min-height:44px;align-items:center}.ask-answer p{margin-bottom:12px}
+.compact-follow{display:flex;flex-wrap:wrap;align-items:center;gap:22px}.compact-follow h2{font-size:30px}.compact-follow p{flex-basis:100%;margin:0}
+.arena-board{margin:30px 0;background:radial-gradient(ellipse at top,#22213f,transparent 70%),#080e1d;border:1px solid #5b5487;border-radius:22px;padding:28px}
+.arena-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:24px}.arena-packet,.arena-reveal{padding:24px;border:1px solid #736193;border-radius:14px;text-align:center;background:#101a30}
+.arena-board h3{font-size:26px;margin:10px 0}.arena-board p{font-size:16px;margin:10px 0}.arena-decisions{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:24px 0;padding:24px 0;border-top:1px dashed #4e6783;border-bottom:1px dashed #4e6783}.arena-decisions article{padding:22px;border:1px solid #276477;border-radius:14px;background:#0c1b2a}.arena-decisions article+article{border-color:#865cac;background:#1a1530}
+.seal{font-size:12px;letter-spacing:.04em;color:#b9c9e3}.arena-reveal strong{color:#ffcb7c;display:block;margin-top:20px}.arena-board .eyebrow{font-size:12px;line-height:1.5}
+@media(max-width:720px){.suite-journey{grid-template-columns:1fr 1fr}.suite-journey strong{grid-column:1/-1;grid-row:1}.ask-row{flex-direction:column}.ask-row button{width:100%}.arena-board{padding:16px}.arena-decisions{grid-template-columns:1fr}.arena-top .pill{font-size:10px;white-space:normal}.technical-detail{padding:14px 18px}.arena-packet,.arena-reveal{padding:18px}.section:has(#ask-form) h2{font-size:36px}}
+
+/* Targeted refinement: keyboard-only skip presentation and compact paper tickets. */
+.skip:focus:not(:focus-visible){top:-100px}
+html{scroll-padding-top:110px}
+@media(max-width:360px){html{scroll-padding-top:160px}}
+.ask-boundary{font-size:14px;margin-top:10px;color:#b6c4d8}
+.arena-board{padding:20px;margin:24px 0}
+.arena-top{margin-bottom:16px;gap:8px;align-items:center}
+.arena-board .arena-packet,.arena-board .arena-reveal{padding:16px}
+.arena-board h3{font-size:23px;margin:6px 0}
+.arena-board p{font-size:14px;line-height:1.5;margin:8px 0}
+.arena-board .eyebrow{display:block;margin-bottom:6px;font-size:10px}
+.arena-branch{text-align:center;color:#8fa8c3;font-size:10px;letter-spacing:.08em;margin:10px 0}
+.arena-board .arena-decisions{grid-template-columns:1fr 1fr;gap:12px;padding:0;margin:0;border:0}
+.arena-board .arena-decisions article{padding:14px 10px;border-top:3px solid #62e8ee}
+.arena-board .arena-decisions article+article{border-top-color:#ce94ff}
+.ticket-icon{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#153f4a;color:#7cf1ed;font-size:13px;font-weight:700}
+.ai-ticket .ticket-icon{border-radius:7px;background:#382457;color:#dda9ff}
+.ticket-type{font-size:9px;letter-spacing:.07em;color:#b6c4d8}
+.arena-board .seal{font-size:10px;line-height:1.5}
+.arena-reveal strong{font-size:12px;margin-top:8px}
+@media(max-width:480px){.arena-board{padding:14px}.arena-board h3{font-size:21px}.arena-board .arena-top .pill{font-size:9px;padding:5px 8px}.arena-board .arena-decisions p{font-size:12px}.arena-board .arena-decisions .seal{font-size:9px}}
+
+/* Preserve the complete current-app capture in project-card previews. */
+.card-image.current-shot{object-fit:contain;background:#080d18}
+
+.gallery.phones.single-shot{grid-template-columns:minmax(0,390px);justify-content:center}
+
+/* Current real iPhone evidence: preserve viewport, frame exterior only. */
+.gallery.phones.current-iphone{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gallery.phones.current-iphone .image-link{background:#080d18;height:auto;padding:20px}
+.gallery.phones.current-iphone .image-link img{width:100%;height:auto;max-height:650px;object-fit:contain}
+@media(max-width:800px){.gallery.phones.current-iphone{grid-template-columns:minmax(0,393px);justify-content:center}}
+
+/* Owner-approved final polish: scope changes to achievement and Trading caption. */
+.personal-achievement{margin-bottom:40px}
+.personal-achievement .fineprint{margin-top:18px}
+.trading-hero .capture-title{font-size:25px;line-height:1.2;margin:0}
+@media(min-width:721px) and (max-width:1024px){
+ .trading-hero figcaption{display:block}
+ .trading-hero figcaption p{margin-top:12px}
+ .trading-hero .zoom-label{display:block;margin-top:12px}
+}

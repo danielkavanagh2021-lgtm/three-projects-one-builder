@@ -1,0 +1,24 @@
+/* Updates page: Concept C arrangement */
+.concept-c .upd-note{margin-top:14px;max-width:660px}
+.concept-c .upd-follow{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.concept-c .upd-follow>*{margin:0;min-width:0}
+.concept-c .upd-timeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.concept-c .upd-timeline>.milestone{grid-column:auto;grid-template-columns:none;margin:0;min-width:0;display:flex;flex-direction:column}
+.concept-c .upd-timeline>.milestone .text-link{margin-top:auto;padding-top:10px}
+.concept-c .upd-timeline>.milestone h3{font-size:18px}
+.concept-c .upd-timeline>.milestone-empty{grid-column:1/-1}
+.concept-c .upd-doc-cards{--cols:4}
+.concept-c .upd-doc-cards .cc-card p:last-child{margin-top:10px}
+.concept-c .upd-doc-cards .text-link{display:inline-block;margin:2px 0}
+.concept-c .tinted h2{margin-bottom:14px}
+.concept-c .three-col{gap:16px}
+@media (max-width:1099px){
+ .concept-c .upd-timeline{grid-template-columns:1fr 1fr}
+ .concept-c .upd-timeline>.milestone:first-child{grid-column:1/-1}
+ .concept-c .upd-doc-cards{--cols:2}
+}
+@media (max-width:699px){
+ .concept-c .upd-follow{grid-template-columns:1fr}
+ .concept-c .upd-timeline{grid-template-columns:1fr;gap:12px}
+ .concept-c .upd-doc-cards{--cols:1}
+}

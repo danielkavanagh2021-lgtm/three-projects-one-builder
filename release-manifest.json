@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "edition": "Owner-approved MrMagic Fitness Beta policy only",
+  "edition": "Concept C portfolio redesign, all nine pages; verified MrMagic Fitness TestFlight milestone (10 Nov 2026)",
   "proposed_base_url": "https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/",
-  "destination_status": "Owner authorization 1220363292634827; unchanged 63-file website plus exact approved privacy page",
-  "site_inventory_sha256": "92f5d56ed74c6f24d9e9df9c03480a1df53dfef0dc8881f6de4b5310f9d15b84",
+  "destination_status": "Owner publication authorization in chat 11 Nov 2026 (final website completion directive); source private candidate c553c943f663a1e07717b8a458a52a26bdc88413; previous release 0bdae08 digest 92f5d56ed74c6f24d9e9df9c03480a1df53dfef0dc8881f6de4b5310f9d15b84",
+  "site_inventory_sha256": "730293f82e7635da6f3ddc0e8d21e9e0635b42494fce9fbd0bb0be765a992b19",
   "files": [
     {
       "file": ".nojekyll",
@@ -11,39 +11,64 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "file": "abracadabra.html",
+      "bytes": 12104,
+      "sha256": "e3d88698e9f2976968b19ba2d908894dedc0aaa06c909a2f9ba878be812e9b4c"
+    },
+    {
+      "file": "assets/ask-site.js",
+      "bytes": 15779,
+      "sha256": "c8b5b9be242fecc643d9fc8a87f15b2b6c430dfd1681175641e1b1a3481c01a5"
+    },
+    {
+      "file": "assets/concept-c.css",
+      "bytes": 16051,
+      "sha256": "047cddeab103f479598e98e53b57e88a5ce557655254eb5fd498166c381a8b30"
+    },
+    {
       "file": "assets/downloads/04-Big-Poppa-Showcase.pdf",
-      "bytes": 339178,
-      "sha256": "f1073f7465a3c0381fc37e29387ca0cfeedcee3fdfbe575c6452a5d383c28950"
+      "bytes": 2495,
+      "sha256": "2ffa211939322da41a64bfc05d579ab03be1498dfea32db5bde2b1a76ce29117"
     },
     {
       "file": "assets/downloads/05-Magics-Decision-Desk-Showcase.pdf",
-      "bytes": 410077,
-      "sha256": "621ca4106e0be0c7ac4331cbe44d746d50e24512e2f0797f0e1cec2d48e44cfd"
+      "bytes": 2504,
+      "sha256": "5d8f4d09b9c6fb458ba36cb8c430c7d7694e8be3d19c989a82505803196ff991"
     },
     {
       "file": "assets/downloads/06-Formula-None-Fitness-Showcase.pdf",
-      "bytes": 435367,
-      "sha256": "f577cf6f61ef98b1e241896395431f5265cf18446169d845a7b132ada99c63bc"
+      "bytes": 2513,
+      "sha256": "6d0d68248e3adc319c6c3cd6d67d9e2029c1121e257079c0183719309daa6652"
     },
     {
       "file": "assets/downloads/07-Big-Poppa-One-Page.pdf",
-      "bytes": 122838,
-      "sha256": "f54e5ff55e9831e748e52ab0697caf0f8d13178741e976f5b35cef51c2eb7970"
+      "bytes": 2495,
+      "sha256": "2ffa211939322da41a64bfc05d579ab03be1498dfea32db5bde2b1a76ce29117"
     },
     {
       "file": "assets/downloads/08-Magics-Decision-Desk-One-Page.pdf",
-      "bytes": 195829,
-      "sha256": "27e9ba1057c03a7c4fdcec441f137c4ce62c5736b4d3594d8eed30347cd7a7c1"
+      "bytes": 2504,
+      "sha256": "5d8f4d09b9c6fb458ba36cb8c430c7d7694e8be3d19c989a82505803196ff991"
     },
     {
       "file": "assets/downloads/09-Formula-None-Fitness-One-Page.pdf",
-      "bytes": 121646,
-      "sha256": "c1e9ff47d5c736fb59d1087c90121088550bbe28d0cb4e47636e100e9cefd138"
+      "bytes": 2513,
+      "sha256": "6d0d68248e3adc319c6c3cd6d67d9e2029c1121e257079c0183719309daa6652"
     },
     {
       "file": "assets/downloads/10-Three-Projects-One-Page.pdf",
-      "bytes": 132595,
-      "sha256": "13fd13e774dcdc14163d15aac7a2bd4b89b5e193b3799c8d9869a0a13b1d3e63"
+      "bytes": 2515,
+      "sha256": "b609577025701d2c07a45e923ec4e5511b906130cef18a07f8041f5ce6e8be3c"
+    },
+    {
+      "file": "assets/engineering.css",
+      "bytes": 10569,
+      "sha256": "c2d664c2f521df291c5bd99d2e2f3b2df4d6e45c43cec0c8c731f543c501f4e4"
+    },
+    {
+      "file": "assets/engineering.js",
+      "bytes": 1477,
+      "sha256": "e98d2b328faf624cef3e559a04081a46b7e9b39ba8b801c1fbc8c350d6338882"
     },
     {
       "file": "assets/favicon.svg",
@@ -62,33 +87,83 @@
     },
     {
       "file": "assets/images/big-dashboard-thumb.webp",
-      "bytes": 62954,
-      "sha256": "9c41e5e047517162cb4329d150cdb621d010f3321c6e73a3af9b19a2c0d828f9"
+      "bytes": 70352,
+      "sha256": "1e0dcca1fbe4e02ac96a0d603be0125a7509363713c0a0efa809fe7c20799d54"
     },
     {
       "file": "assets/images/big-dashboard.webp",
-      "bytes": 760478,
-      "sha256": "ee3381e885f2a23d96c2c4b9023470a8276f131af8f41af5ee34d91a61faa334"
+      "bytes": 177420,
+      "sha256": "de1b4b103a5dcd1c02bc675d8f3db4e213e129cc0238f9d392aaa62d2c973547"
     },
     {
       "file": "assets/images/big-history-thumb.webp",
-      "bytes": 49088,
-      "sha256": "fb13c706ff63c0a8fb72c4314490681262c1c021036a506a976231c8ee9ea0e7"
+      "bytes": 63732,
+      "sha256": "a36d319fd32cf69da7258e4a68b208ff3a911b5f203a281365149dcc480f97b2"
     },
     {
       "file": "assets/images/big-history.webp",
-      "bytes": 748486,
-      "sha256": "0d7423bc88b20546869b7bb92cd097b861a5fafecdd44c073b397d35a6d469c5"
+      "bytes": 147846,
+      "sha256": "2e723062de3bb4b4d2d9bca258a4e7d740ddd940795d285946d16cdf71848241"
     },
     {
       "file": "assets/images/big-phone-thumb.webp",
-      "bytes": 39086,
-      "sha256": "1292852486d3d5077d84e919df811ad5c30e1c4cbe4ea8c342c476dad3422c70"
+      "bytes": 43622,
+      "sha256": "0d2e9d2b5231bfea46e28b2c5decc06f478d4cede44a83c3c8fa94a8a778d90a"
     },
     {
       "file": "assets/images/big-phone.webp",
-      "bytes": 200214,
-      "sha256": "729f3b0c7e933b81c351a1438ca33d46dc18e5420525133298f5e350450baa96"
+      "bytes": 52830,
+      "sha256": "7d42bf3489933dbe59a97d43c7f8e4f545360417c62a698939d4056b042e456e"
+    },
+    {
+      "file": "assets/images/daniel-portrait.webp",
+      "bytes": 191136,
+      "sha256": "63178a9ae71047f16a497968fa67dd6f5e8ba6c545256b50af96ae703e83ef9a"
+    },
+    {
+      "file": "assets/images/engineering-social.png",
+      "bytes": 184409,
+      "sha256": "1b8279366ee801df61e791bdd7ed39a03082bc4f8d871c433215771417a5555f"
+    },
+    {
+      "file": "assets/images/fictional-desk-phone-thumb.webp",
+      "bytes": 101122,
+      "sha256": "788b2996629ce8971cca01c7d853d65516c176f469d7fa77d3ea84d5a967aa95"
+    },
+    {
+      "file": "assets/images/fictional-desk-phone.webp",
+      "bytes": 112822,
+      "sha256": "21d87641300127b1259fc4584f0057c6b0964c610546f9fc5e06b68843f59a94"
+    },
+    {
+      "file": "assets/images/fictional-desk-thumb.webp",
+      "bytes": 59938,
+      "sha256": "6d63114704944138fe2fffe4cec0b3ce259b44210bea9ef046118ba133c8c685"
+    },
+    {
+      "file": "assets/images/fictional-desk.webp",
+      "bytes": 140740,
+      "sha256": "005cf8598d08e34326fd5216f487bdfcb8856692e8cf3a4a668cb8297d9f98ce"
+    },
+    {
+      "file": "assets/images/fictional-home-thumb.webp",
+      "bytes": 71646,
+      "sha256": "65d16aae1304fa3d2c40395b51c094eb0df992f47ec652da0e10a0603287a79d"
+    },
+    {
+      "file": "assets/images/fictional-home.webp",
+      "bytes": 167892,
+      "sha256": "26a5d66e166a3b742cce05b95ad8e55ba6738f5b8ce805d0cf072401eb764f92"
+    },
+    {
+      "file": "assets/images/fictional-markets-thumb.webp",
+      "bytes": 67168,
+      "sha256": "9017d67e6cba00627b9c036b01fd54119a8de4232cac8d082043cd3e28784f58"
+    },
+    {
+      "file": "assets/images/fictional-markets.webp",
+      "bytes": 159396,
+      "sha256": "bafafc84771dad07360b2042d401980f802781fa5bd5cb607218fc51272c44af"
     },
     {
       "file": "assets/images/fitness-activity-thumb.webp",
@@ -101,14 +176,84 @@
       "sha256": "b8a171b43e3ccdd3cc6b9f5ef1a74429fc6f3cbac9ace5712876c3ad013322e2"
     },
     {
+      "file": "assets/images/fitness-current-activity-thumb.webp",
+      "bytes": 201364,
+      "sha256": "f3f102392af4d2aae65f0e26bd0269476b4157c2416f2d6bdf4f57442a32cc9c"
+    },
+    {
+      "file": "assets/images/fitness-current-activity.webp",
+      "bytes": 201364,
+      "sha256": "f3f102392af4d2aae65f0e26bd0269476b4157c2416f2d6bdf4f57442a32cc9c"
+    },
+    {
+      "file": "assets/images/fitness-current-today-thumb.webp",
+      "bytes": 233810,
+      "sha256": "cf7885fd6bacd5d9c8e046914846e3497184dcd3a0f551a5ffc5fe57a97e6f88"
+    },
+    {
+      "file": "assets/images/fitness-current-today.webp",
+      "bytes": 233810,
+      "sha256": "cf7885fd6bacd5d9c8e046914846e3497184dcd3a0f551a5ffc5fe57a97e6f88"
+    },
+    {
+      "file": "assets/images/fitness-current-weight-thumb.webp",
+      "bytes": 158052,
+      "sha256": "796b837f9dc04129fd83cb260a99c6959911996dbc0f32bc8a531cd061430885"
+    },
+    {
+      "file": "assets/images/fitness-current-weight.webp",
+      "bytes": 158052,
+      "sha256": "796b837f9dc04129fd83cb260a99c6959911996dbc0f32bc8a531cd061430885"
+    },
+    {
       "file": "assets/images/fitness-dashboard-thumb.webp",
-      "bytes": 30798,
-      "sha256": "de4cdeb45885fbda8b27eef425234b8db6c8d4455909799c93ff3ddf447ecdfa"
+      "bytes": 578452,
+      "sha256": "0c8380f6ae2c8d3f003b28ddbbbe86226af98fe125f53617a9cfbc33c3759141"
     },
     {
       "file": "assets/images/fitness-dashboard.webp",
       "bytes": 578452,
       "sha256": "0c8380f6ae2c8d3f003b28ddbbbe86226af98fe125f53617a9cfbc33c3759141"
+    },
+    {
+      "file": "assets/images/fitness-device-ask-guide-thumb.webp",
+      "bytes": 35548,
+      "sha256": "60083efa8473bea01740b2e154c96916795ca9fd1966bcfb1dc9d09cf98562c3"
+    },
+    {
+      "file": "assets/images/fitness-device-ask-guide.webp",
+      "bytes": 58710,
+      "sha256": "4f9994863f482f92b6a7d8d52b5db55833ac060091c4636df1493924e03ca8e1"
+    },
+    {
+      "file": "assets/images/fitness-device-ask-progress-answer-thumb.webp",
+      "bytes": 50818,
+      "sha256": "ffc66554d93ed5bfc52b7bf8af63ca9fb9148089e0da9d21a33578b9378b00d5"
+    },
+    {
+      "file": "assets/images/fitness-device-ask-progress-answer.webp",
+      "bytes": 81670,
+      "sha256": "4bbc13e22708cb20f665b42bfe509b002e6513850ab5d970ad08385be7bc71d2"
+    },
+    {
+      "file": "assets/images/fitness-device-more-thumb.webp",
+      "bytes": 39766,
+      "sha256": "f83fcffa8b2287e6608428c95d2a59814aa266b59a126f49659b347db892ee1c"
+    },
+    {
+      "file": "assets/images/fitness-device-more.webp",
+      "bytes": 65138,
+      "sha256": "213e85f99d8dd41015bb0149cac9620df84dae393e94f982420612f6d55384c8"
+    },
+    {
+      "file": "assets/images/fitness-device-plan-empty-controls-thumb.webp",
+      "bytes": 35612,
+      "sha256": "d0b3b4d1fc3f9ef1a18bdb6c0506a9fd5ba70dd1a1e520ad4dccbab9ff895751"
+    },
+    {
+      "file": "assets/images/fitness-device-plan-empty-controls.webp",
+      "bytes": 54272,
+      "sha256": "e9f5dfa0e18c60e2a1f72e5642195620c17dc8eaaf4ca356490d8a8d980bf951"
     },
     {
       "file": "assets/images/fitness-goals-thumb.webp",
@@ -161,6 +306,31 @@
       "sha256": "0e6b175d144d7df05e36144cc35e4e895fcd74ab8136c1afa1a824a4e0adb8f3"
     },
     {
+      "file": "assets/images/fortune-prototype-1440-thumb.webp",
+      "bytes": 22160,
+      "sha256": "ccf25403b57df8824d88028b4fa64a29be3144d9b904edecb674491af37b4dca"
+    },
+    {
+      "file": "assets/images/fortune-prototype-1440.webp",
+      "bytes": 75706,
+      "sha256": "4ac7c8553be340ea80097fe0b5177acb7a76fa253ded48c7ef43c1e5d92c2ab7"
+    },
+    {
+      "file": "assets/images/fortune-prototype-390-thumb.webp",
+      "bytes": 37510,
+      "sha256": "ceca616bf2e9d24a82db117fd7a5b536698faeb609a6347c31fa34febd47a36a"
+    },
+    {
+      "file": "assets/images/fortune-prototype-390.webp",
+      "bytes": 42070,
+      "sha256": "46e922da364450cb7ad19a6b04679c60312c332fe28034ac1973809de152379a"
+    },
+    {
+      "file": "assets/images/grove-ask-guide-320.png",
+      "bytes": 25546,
+      "sha256": "01cebdf0f12c7b33d3ef4ee8fb824ad6d97a428e386e9835b66dccdb2c30a834"
+    },
+    {
       "file": "assets/images/m1-accessibility-top-thumb.webp",
       "bytes": 27502,
       "sha256": "01ed1a335521ed6ae714e5595ed05d99ce0fc2072fd50961f96fa0b9f2b572e5"
@@ -202,48 +372,148 @@
     },
     {
       "file": "assets/images/magic-desk-phone-thumb.webp",
-      "bytes": 43638,
-      "sha256": "68d1b0ba44666898bdee5f665327c7866f68cee5d963aa27fe4ed1c690b6fd03"
+      "bytes": 101122,
+      "sha256": "788b2996629ce8971cca01c7d853d65516c176f469d7fa77d3ea84d5a967aa95"
     },
     {
       "file": "assets/images/magic-desk-phone.webp",
-      "bytes": 388952,
-      "sha256": "fa7dbbeae4fc676638365b09e7cb910deb9b95a70810e5e05c47d95db99dde0d"
+      "bytes": 112822,
+      "sha256": "21d87641300127b1259fc4584f0057c6b0964c610546f9fc5e06b68843f59a94"
     },
     {
       "file": "assets/images/magic-desk-thumb.webp",
-      "bytes": 39730,
-      "sha256": "d32368f6259678a5df5601034dc9b181e14746a5c3dd38d0f71622d322140ed6"
+      "bytes": 59938,
+      "sha256": "6d63114704944138fe2fffe4cec0b3ce259b44210bea9ef046118ba133c8c685"
     },
     {
       "file": "assets/images/magic-desk.webp",
-      "bytes": 179180,
-      "sha256": "61d4844b9ced379c16464f6c21b2a817707c0d570a81b617efd87705e25c8fc2"
+      "bytes": 140740,
+      "sha256": "005cf8598d08e34326fd5216f487bdfcb8856692e8cf3a4a668cb8297d9f98ce"
     },
     {
       "file": "assets/images/magic-home-thumb.webp",
-      "bytes": 21462,
-      "sha256": "25898bc88a864135bfb865eb23976cf07557ead1bf69c9e18aebe0583ed4fae0"
+      "bytes": 71646,
+      "sha256": "65d16aae1304fa3d2c40395b51c094eb0df992f47ec652da0e10a0603287a79d"
     },
     {
       "file": "assets/images/magic-home.webp",
-      "bytes": 86462,
-      "sha256": "ceaae14cfd87f680754f388986b7cb33466c4507ff77f9faf5971bdf377e06c8"
+      "bytes": 167892,
+      "sha256": "26a5d66e166a3b742cce05b95ad8e55ba6738f5b8ce805d0cf072401eb764f92"
     },
     {
       "file": "assets/images/magic-markets-thumb.webp",
-      "bytes": 44020,
-      "sha256": "f5d72d350a2c9f7ae08248cf28f83f3668824a3d0d883ddd9d7af4af44767309"
+      "bytes": 67168,
+      "sha256": "9017d67e6cba00627b9c036b01fd54119a8de4232cac8d082043cd3e28784f58"
     },
     {
       "file": "assets/images/magic-markets.webp",
-      "bytes": 196830,
-      "sha256": "96dc3232eac50cee1d905dae6d0f023e7921778a69f464f1eb004beffb803cd2"
+      "bytes": 159396,
+      "sha256": "bafafc84771dad07360b2042d401980f802781fa5bd5cb607218fc51272c44af"
     },
     {
       "file": "assets/images/social-card.png",
-      "bytes": 198780,
-      "sha256": "cf81104e9ce9c653bf3fd86173d1f30cbbb9423802f9c9e8e39046838cd9ae43"
+      "bytes": 184409,
+      "sha256": "1b8279366ee801df61e791bdd7ed39a03082bc4f8d871c433215771417a5555f"
+    },
+    {
+      "file": "assets/images/trading-installed-home-thumb.webp",
+      "bytes": 19272,
+      "sha256": "74325b145815da95cbb5cebcd30b8cd4b8e7a453e608b5cdf7cfa933895381a3"
+    },
+    {
+      "file": "assets/images/trading-installed-home.webp",
+      "bytes": 171624,
+      "sha256": "c851d034e3f9211f0b7488a5a71356bc51750f00a5b12c086e28ad59d5a8bb65"
+    },
+    {
+      "file": "assets/images/trading-installed-phone-thumb.webp",
+      "bytes": 61366,
+      "sha256": "a2f882f281505bcca7205a6edc2a51bfc12b6cce892a76d0d4a1edb0a982ee9a"
+    },
+    {
+      "file": "assets/images/trading-installed-phone.webp",
+      "bytes": 130712,
+      "sha256": "dd358c1ed4325cb549b2c553dd8cc0758b84b024d6e3267fcddb29b7528906f7"
+    },
+    {
+      "file": "assets/images/trading-panel-desktop-thumb.webp",
+      "bytes": 49104,
+      "sha256": "ecf909a90f1a737b9aa4d014911bd1d44d791889e268fa35a212566372eae2dc"
+    },
+    {
+      "file": "assets/images/trading-panel-desktop.webp",
+      "bytes": 155324,
+      "sha256": "0c4c83abde8c8eb24bdaf95c3e53d26bc6af6569d56638c3257411e86b790178"
+    },
+    {
+      "file": "assets/images/trading-panel-phone-thumb.webp",
+      "bytes": 114404,
+      "sha256": "4d05b0d03dcce42aa02e73a04d54a566cb46a3ca275204c855afa8d1d2dcd6c7"
+    },
+    {
+      "file": "assets/images/trading-panel-phone.webp",
+      "bytes": 101970,
+      "sha256": "7405bcee89f52941143ee93d6e382bf926fe4685a386a8ef2b2983bfe7b23ab4"
+    },
+    {
+      "file": "assets/images/vault-catalog.webp",
+      "bytes": 92802,
+      "sha256": "a0f44f1b4c429e8aa7892e798410773ddd55207375f7de4ad5a5173813072ee7"
+    },
+    {
+      "file": "assets/images/vault-intake.webp",
+      "bytes": 82748,
+      "sha256": "53e296136366909f18b8ae7d833211ab25498c9b44c8f5798a0ef8b635d1dd26"
+    },
+    {
+      "file": "assets/images/vault-overview.webp",
+      "bytes": 109292,
+      "sha256": "a204d38b8687f581e33afcc11af5d81a5ca770bade27ca3265d86dce8491cfe7"
+    },
+    {
+      "file": "assets/lead.css",
+      "bytes": 8990,
+      "sha256": "fbd3f2441d1432f187534b5804ba7209b8a13da21bde797af3a78251a6f4c44a"
+    },
+    {
+      "file": "assets/pages/abracadabra.css",
+      "bytes": 1060,
+      "sha256": "f8cfedf7864833c9d6b4cf7cd0caaef154597439a6f14874d87399fc5ac76195"
+    },
+    {
+      "file": "assets/pages/behind-the-build.css",
+      "bytes": 874,
+      "sha256": "ec39965486c707d254cd4b6e7a64ce59bb1d13097c04d553dc92b5cfc39aef76"
+    },
+    {
+      "file": "assets/pages/big-poppa.css",
+      "bytes": 1946,
+      "sha256": "065b662310b99e2836617e00f831812da92764c41c16942d8a051ea05a055c60"
+    },
+    {
+      "file": "assets/pages/engineering.css",
+      "bytes": 1360,
+      "sha256": "5e87afb1fec80b0b3cadf55ad47f3d2c8a911bae9b783c2c13142cdd9de8c05a"
+    },
+    {
+      "file": "assets/pages/magics-decision-desk.css",
+      "bytes": 1026,
+      "sha256": "8037a1ef8460aed37f7d5ba8b0bb79543c95567db2bbaea0fe4b9b2c2f564f81"
+    },
+    {
+      "file": "assets/pages/magics-fortune.css",
+      "bytes": 1378,
+      "sha256": "76a52daa842468303027d449d346a20836791472ecd2187655d76c81dd08d6db"
+    },
+    {
+      "file": "assets/pages/updates.css",
+      "bytes": 1281,
+      "sha256": "53889a97d31af52c54a83a02e35318b8a401774cca8cbd40cbb51cc8b4e9120c"
+    },
+    {
+      "file": "assets/refinement.css",
+      "bytes": 6183,
+      "sha256": "bf2a9174ac794b6e07f85b7f67821522d0e2909706ede4b64996ef10e6e7f4a8"
     },
     {
       "file": "assets/site.css",
@@ -254,6 +524,11 @@
       "file": "assets/site.js",
       "bytes": 3134,
       "sha256": "4296b6272ad26e67f669b3dea253ee5cfdf1e81937a80858933f7fbcf60cd8ac"
+    },
+    {
+      "file": "assets/spacing.css",
+      "bytes": 2689,
+      "sha256": "27abc5825f39f025a20e300768e48004a33882fb24f70a4191a9fc198f3e3c69"
     },
     {
       "file": "assets/suite.css",
@@ -267,18 +542,23 @@
     },
     {
       "file": "behind-the-build.html",
-      "bytes": 11053,
-      "sha256": "aecf24c9fb713cf1f2a1065363cf00856af74871c534d8734c977e33a67de7f3"
+      "bytes": 10732,
+      "sha256": "decd329a926b1c68d07577b9f0db097571b7a0b12fcec98b6afe22626a3dc33c"
     },
     {
       "file": "big-poppa.html",
-      "bytes": 12967,
-      "sha256": "d095ffb959ea792a1dfeef4b4f0a7817705cb1c83b955bc675ef59c81f519957"
+      "bytes": 13797,
+      "sha256": "95e900dea406fee18a3f7e668b1c61690ac42bfe0de6ca86e3ae77ec3d48dc90"
+    },
+    {
+      "file": "engineering.html",
+      "bytes": 10412,
+      "sha256": "70733a204c53981d82ab59acb058fcadb32523b60ef3d02f43a6867a3470e535"
     },
     {
       "file": "feed-fitness.xml",
-      "bytes": 562,
-      "sha256": "102f254413ac720e96409f889ed3fa97afd01c17d92989698b5c0bfd5da39897"
+      "bytes": 1396,
+      "sha256": "491ed1485a3658e8d8a2bf9c1c92c8b0f485640332e10105e479fca9aec9defe"
     },
     {
       "file": "feed-mining.xml",
@@ -292,23 +572,33 @@
     },
     {
       "file": "feed.xml",
-      "bytes": 1440,
-      "sha256": "040675e5f3b01a5ff8ed880223d5db9e62d75d4ebb6dcc1e2d0fb11be2478194"
+      "bytes": 2258,
+      "sha256": "9bc8ae213a0aeb57a4ffd2e2329fa9b9456ceb1461fd8fc527d52c5ac60df022"
+    },
+    {
+      "file": "fitness-beta-thanks.html",
+      "bytes": 3568,
+      "sha256": "4accd4f1dc16cac45cf19c42cf2574fdb1f93a8fb482a2efc6f392b5ee9dd699"
     },
     {
       "file": "formula-none-fitness.html",
-      "bytes": 21601,
-      "sha256": "757786a4d218838757a8f38655e014c66f5bf145a830e568dda05d144dc71c45"
+      "bytes": 30443,
+      "sha256": "4af052bb0bb1f070866564733d02c02ac0890427f6e19f8c0bf0976e737e83a1"
     },
     {
       "file": "index.html",
-      "bytes": 23912,
-      "sha256": "61585a0cea44c21e5112ac3d0583daf6ddd8174d4892b80c56791e7825cc5809"
+      "bytes": 21549,
+      "sha256": "754b92bb6772cd16b269b86b46304ff8952920da18c29ba3130b3660502672d7"
     },
     {
       "file": "magics-decision-desk.html",
-      "bytes": 15703,
-      "sha256": "1c0e63fe6581f0389ce5d445b8e14f23364c3953cebf015a41667cb935bf323d"
+      "bytes": 22864,
+      "sha256": "777c1f2178647d9dce5e3642e28996ea7740b0ee6c563c824d656bc160a69157"
+    },
+    {
+      "file": "magics-fortune.html",
+      "bytes": 12450,
+      "sha256": "8de29162fe5af519ca24fab19480b9905b4f62b08027fbdc3f27367c6632e0a6"
     },
     {
       "file": "privacy/mrmagic-fitness-beta.html",
@@ -317,13 +607,18 @@
     },
     {
       "file": "robots.txt",
-      "bytes": 25,
-      "sha256": "1cbdbc6504be7abe1267d01d7f565bfcfe5851ba3f6a3754d1d61c8f8a2c6aa3"
+      "bytes": 177,
+      "sha256": "29907441641bf4db264e330795c1fda47887d3f29e29126a9c9b8cf95553cbb8"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 1521,
+      "sha256": "115842b848f07785b58c5559072838cc263778292863fd73ddab79247bb33b84"
     },
     {
       "file": "updates.html",
-      "bytes": 16952,
-      "sha256": "e81c0005b1a2abba1def2b66b2241038cfc43f6f8aec77912289a887113c2044"
+      "bytes": 24025,
+      "sha256": "6d8d013b9eafc2edab1c46e4c58f07f205115ac97efc8714831dc622f85ed05e"
     }
   ]
 }

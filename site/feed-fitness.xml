@@ -6,5 +6,13 @@
     <description>Reviewed, published milestones from Three Projects. One Builder.</description>
     <language>en-us</language>
     <ns0:link href="https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/feed-fitness.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magic’s Fitness Companion: An iPhone update, with existing data preserved</title>
+      <link>https://danielkavanagh2021-lgtm.github.io/three-projects-one-builder/updates.html#fitness-build33-iphone-installation</link>
+      <guid isPermaLink="false">urn:kavanagh:milestone:fitness:build33-iphone-installation</guid>
+      <description>Version 1.7.1 build 33 was installed as an in-place personal iPhone update and accepted by the owner on 9 November 2026. Familiar records and settings were preserved; navigation, local deterministic Ask MrMagic help and a cold reopen were checked. Full accessibility and live scale/watch checks remain outstanding. No public app distribution is announced.</description>
+      <category>Fitness</category>
+      <pubDate>Mon, 09 Nov 2026 15:35:20 GMT</pubDate>
+    </item>
   </channel>
 </rss>
